@@ -1,0 +1,35 @@
+﻿Light Transmission Optimization Performance Report
+Generated: 11/08/2025 17:53:08
+
+System Configuration:
+  System Initialized: True
+  Network Connected: True
+  Ethernet Speed: 1000 Mbps
+  Router Speed: 950 Mbps
+  Modem Speed: 900 Mbps
+  Fiber Speed: 100 Gbps
+
+Light Transmission Metrics:
+  Light Speed Constant: 200000 km/s
+  Light Delay Constant: 0.2
+  Current Light Delay: 0.202307763394112
+  Optimal Light Delay: 0.1
+  Light Bend Angle: 30 degrees
+  Current Adjustment: 0.065
+  Data Transmission Rate: 74.8676990079077 Gbps
+  Signal Quality: 93.6%
+  Bandwidth Utilization: 76.4%
+
+Derivative Curve Data:
+  Time Points: 101
+  Optimal Curve Factor: 0.85
+  Curve Adjustment Needed: 0.15
+  Recalculation Needed: NO
+
+Performance Improvements Achieved:
+  Light Delay Reduction: FROM 0.2 TO 0.1
+  Data Transmission Rate: 74.8676990079077 Gbps
+  Signal Quality: 93.6%
+  Network Efficiency: ACTIVE
+  Derivative Curve Optimization: APPLIED
+  Light Path Optimization: ACTIVE

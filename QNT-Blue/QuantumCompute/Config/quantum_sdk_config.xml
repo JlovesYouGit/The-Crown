@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<QuantumSDKConfig version="1.0" xmlns="http://schemas.amd.com/quantum/2025/config">
+  <RegistrationInfo>
+    <Date>2025-10-31T16:15:00</Date>
+    <Author>Advanced Micro Devices</Author>
+    <Description>AMD Quantum SDK Configuration</Description>
+    <URI>\AMD\QuantumSDK</URI>
+  </RegistrationInfo>
+  <QuantumSupport>
+    <Enabled>true</Enabled>
+    <Version>1.0.0001</Version>
+    <Languages>
+      <Language name="Q#" version="1.0" />
+      <Language name="Python" version="3.9" />
+      <Language name="C++" version="20" />
+    </Languages>
+    <Platforms>
+      <Platform name="Windows" version="11" />
+      <Platform name="Linux" version="5.4" />
+    </Platforms>
+  </QuantumSupport>
+  <Integration>
+    <WithAMDSoftware>true</WithAMDSoftware>
+    <WithDriverInstallation>true</WithDriverInstallation>
+    <WithRadeonSettings>true</WithRadeonSettings>
+  </Integration>
+  <Paths>
+    <InstallPath>%ProgramFiles%\AMD\QuantumSDK</InstallPath>
+    <BinPath>%ProgramFiles%\AMD\QuantumSDK\bin</BinPath>
+    <LibPath>%ProgramFiles%\AMD\QuantumSDK\lib</LibPath>
+    <IncludePath>%ProgramFiles%\AMD\QuantumSDK\include</IncludePath>
+    <SamplesPath>%ProgramFiles%\AMD\QuantumSDK\samples</SamplesPath>
+  </Paths>
+  <Services>
+    <Service name="AMDQuantumService" enabled="true" />
+    <Service name="QuantumJobScheduler" enabled="true" />
+  </Services>
+</QuantumSDKConfig>

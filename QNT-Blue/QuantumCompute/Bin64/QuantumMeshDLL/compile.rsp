@@ -1,0 +1,20 @@
+/LD
+/EHsc
+/std:c++17
+/DWIN32
+/D_WINDOWS
+/DQUANTUM_MESH_BOOST_EXPORTS
+/DWIN32_LEAN_AND_MEAN
+/I"."
+/I"..\ggml\include"
+/I"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include"
+/I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt"
+/I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um"
+/I"C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared"
+/Fe"Release\QuantumMeshBoost.dll"
+/Fd"Release\QuantumMeshBoost.pdb"
+QuantumMeshBoost.cpp
+"..\ggml\build-vs\src\Release\ggml.lib"
+"..\ggml\build-vs\src\Release\ggml-base.lib"
+"..\ggml\build-vs\src\Release\ggml-cpu.lib"
+"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.26100.0\um\x64\advapi32.lib"

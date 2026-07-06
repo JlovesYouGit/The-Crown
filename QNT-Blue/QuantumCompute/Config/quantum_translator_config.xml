@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<QuantumTranslatorConfig version="1.0" xmlns="http://schemas.amd.com/quantum/translator/2025/config">
+  <RegistrationInfo>
+    <Date>2025-10-31T16:15:00</Date>
+    <Author>Advanced Micro Devices</Author>
+    <Description>AMD Quantum-Classical Translator Configuration</Description>
+    <URI>\AMD\QuantumTranslator</URI>
+  </RegistrationInfo>
+  <TranslationSettings>
+    <DefaultMode>AUTO_DETECT</DefaultMode>
+    <OptimizationLevel>QUANTUM_ENHANCED</OptimizationLevel>
+    <ParallelTranslation>true</ParallelTranslation>
+    <MaxTranslationTime>30.0</MaxTranslationTime>
+  </TranslationSettings>
+  <SupportedLanguages>
+    <Language name="C++" version="20" supported="true" />
+    <Language name="C" version="11" supported="true" />
+    <Language name="Python" version="3.9" supported="true" />
+    <Language name="Rust" version="1.50" supported="true" />
+    <Language name="Fortran" version="2018" supported="true" />
+  </SupportedLanguages>
+  <QuantumAcceleration>
+    <ComputationTypes>
+      <Type name="SEARCH" accelerated="true" />
+      <Type name="OPTIMIZATION" accelerated="true" />
+      <Type name="SIMULATION" accelerated="true" />
+      <Type name="ARITHMETIC" accelerated="false" />
+      <Type name="LOGICAL" accelerated="false" />
+    </ComputationTypes>
+    <Thresholds>
+      <CodeLength>100</CodeLength>
+      <Complexity>5</Complexity>
+    </Thresholds>
+  </QuantumAcceleration>
+  <Integration>
+    <WithAMDSoftware>true</WithAMDSoftware>
+    <WithCompiler>true</WithCompiler>
+    <WithRadeonSettings>true</WithRadeonSettings>
+  </Integration>
+  <Paths>
+    <InstallPath>%ProgramFiles%\AMD\QuantumCompute\Translator</InstallPath>
+    <BinPath>%ProgramFiles%\AMD\QuantumCompute\Translator\bin</BinPath>
+    <LibPath>%ProgramFiles%\AMD\QuantumCompute\Translator\lib</LibPath>
+    <IncludePath>%ProgramFiles%\AMD\QuantumCompute\Translator\include</IncludePath>
+    <SamplesPath>%ProgramFiles%\AMD\QuantumCompute\Translator\samples</SamplesPath>
+  </Paths>
+</QuantumTranslatorConfig>

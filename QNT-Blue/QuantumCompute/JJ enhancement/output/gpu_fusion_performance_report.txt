@@ -1,0 +1,50 @@
+﻿GPU Compute-Graphics Fusion Performance Report
+Generated: 11/07/2025 18:20:29
+
+System Configuration:
+  System Initialized: True
+  Tasks in Queue: 0
+  Compute Units Allocation: 65%
+  Graphics Units Allocation: 35%
+  Memory Bandwidth: 50%
+  Power Budget: 50%
+  Thermal Headroom: 70%
+
+Performance Metrics:
+  Current FPS: 295.25896528515
+  Target FPS: 240
+  GPU Utilization: 68%
+  Compute Utilization: 50.6%
+  Graphics Utilization: 73%
+  Memory Utilization: 48.6%
+  Power Consumption: 161.8621W
+  Temperature: 70.18978°C
+  Efficiency Rating: 1.775392
+  Frame Drops: 0
+
+Frame Stabilization Settings:
+  Target FPS: 240
+  Max Frame Time: 4.17ms
+  Max Consecutive Drops: 1
+  VSync Enabled: True
+  Triple Buffering: True
+  Timing Tolerance: 0.5ms
+
+Processed Tasks:
+   - Compute: 0%, Graphics: 0%
+
+Optimization Features:
+  Dynamic Resource Allocation: True
+  Power Optimization: True
+  Thermal Management: True
+  Quality Scaling: True
+  Frame Stabilization: True
+
+Performance Improvements Achieved:
+  Resource Balancing: ACTIVE
+  Multi-Adaptive Usage: ACTIVE
+  Task Prioritization: ACTIVE
+  Performance Monitoring: ACTIVE
+  Frame Stabilization: ACTIVE
+  Static High Frame Rate: ACHIEVED
+  Max Frame Drop Limit: 1 CONSECUTIVE FRAME

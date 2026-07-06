@@ -1,0 +1,10 @@
+; AMD Quantum Mesh Rendering Boost DLL Export Definitions
+; Provides optimized mesh rendering capabilities using quantum computing
+
+LIBRARY QuantumMeshBoost
+EXPORTS
+    InitializeQuantumMeshSystem
+    OptimizeMeshRendering
+    TrackObjectsInAxes
+    ApplyExponentialFPSRestoration
+    ShutdownQuantumMeshSystem

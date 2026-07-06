@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<QuantumStateConfiguration> 
+  <HierarchyLevel>6</HierarchyLevel> 
+  <QubitCount>1024</QubitCount> 
+  <CoherenceLevel>99</CoherenceLevel> 
+  <FidelityLevel>99.9</FidelityLevel> 
+</QuantumStateConfiguration> 
