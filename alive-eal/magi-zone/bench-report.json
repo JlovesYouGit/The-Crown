@@ -1,0 +1,142 @@
+{
+  "timestamp": 1783372775330,
+  "environment": "v24.9.0",
+  "cases": [
+    {
+      "label": "baseline",
+      "ms": 3,
+      "waveBandCount": 24,
+      "fluctuation": 0,
+      "pocketMagiCount": 2,
+      "resultCount": 2,
+      "tier": 2,
+      "permitted": true,
+      "executed": true,
+      "realityTear": 0.30356726668753403,
+      "enforcedToReality": true,
+      "physicalPosition": [
+        1,
+        2.9,
+        0
+      ],
+      "zoneOrigin": [
+        0,
+        2.9,
+        0
+      ],
+      "patternId": "pattern_manifest",
+      "dimensionalState": "2d_in_3d"
+    },
+    {
+      "label": "no-movement",
+      "ms": 1,
+      "waveBandCount": 24,
+      "fluctuation": 0,
+      "pocketMagiCount": 1,
+      "resultCount": 1,
+      "tier": 1,
+      "permitted": true,
+      "executed": true,
+      "realityTear": 0.3436569312371368,
+      "enforcedToReality": true,
+      "physicalPosition": [
+        5,
+        6.7,
+        5
+      ],
+      "zoneOrigin": [
+        5,
+        6.7,
+        5
+      ],
+      "patternId": "pattern_seal",
+      "dimensionalState": "2d_in_3d"
+    },
+    {
+      "label": "high-danger",
+      "ms": 0,
+      "waveBandCount": 24,
+      "fluctuation": 0,
+      "pocketMagiCount": 2,
+      "resultCount": 2,
+      "tier": 3,
+      "permitted": true,
+      "executed": true,
+      "realityTear": 0.3509065398705375,
+      "enforcedToReality": true,
+      "physicalPosition": [
+        -10,
+        4.5,
+        10
+      ],
+      "zoneOrigin": [
+        -10,
+        3.5,
+        10
+      ],
+      "patternId": "pattern_ward",
+      "dimensionalState": "2d_in_3d"
+    },
+    {
+      "label": "open-only",
+      "ms": 0,
+      "waveBandCount": 24,
+      "fluctuation": 0,
+      "pocketMagiCount": 1,
+      "resultCount": 1,
+      "tier": 2,
+      "permitted": true,
+      "executed": true,
+      "realityTear": 0.3165959963313593,
+      "enforcedToReality": true,
+      "physicalPosition": [
+        1,
+        3,
+        1
+      ],
+      "zoneOrigin": [
+        0,
+        2,
+        0
+      ],
+      "patternId": "pattern_open",
+      "dimensionalState": "2d_in_3d"
+    },
+    {
+      "label": "repeat-baseline",
+      "ms": 1,
+      "waveBandCount": 24,
+      "fluctuation": 0,
+      "pocketMagiCount": 2,
+      "resultCount": 2,
+      "tier": 2,
+      "permitted": true,
+      "executed": true,
+      "realityTear": 0.2853421268871492,
+      "enforcedToReality": true,
+      "physicalPosition": [
+        1,
+        2.9,
+        0
+      ],
+      "zoneOrigin": [
+        0,
+        2.9,
+        0
+      ],
+      "patternId": "pattern_manifest",
+      "dimensionalState": "2d_in_3d"
+    }
+  ],
+  "summary": {
+    "totalCases": 5,
+    "executedCount": 5,
+    "permittedCount": 5,
+    "avgMs": 1,
+    "avgRealityTear": 0.3200137722027434,
+    "maxRealityTear": 0.3509065398705375,
+    "allExecuted": true,
+    "allPermitted": true,
+    "safeRealityTear": true
+  }
+}
