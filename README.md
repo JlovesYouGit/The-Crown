@@ -163,3 +163,4 @@ cmake --build .
 - `royalice` requires a .NET 8 SDK; real LLM calls require valid API keys.
 be ware there are people outsideboundvoice\probe-sequence\spectrum_analysis
 python live_terminal_sender.py
+<img width="860" height="484" alt="image" src="https://github.com/user-attachments/assets/ae305acc-b69f-4fbf-811e-b0e10ad0563b" />
