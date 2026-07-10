@@ -72,7 +72,8 @@ An experimental, multi-language codebase combining consciousness simulation, spe
 - OpenStreetMap tower mapping (by place name or bounding box) with HTML map export.
 - 3D spectrum visualization, LIDAR-style point-cloud viewer, GUI dashboards, and network security assessor.
 - Build script (`build_exe.py`) for standalone Windows `.exe` packaging.
-
+outsideboundvoice\probe-sequence\spectrum_analysis
+python live_terminal_sender.py
 ### 7) Spatial Simulation + Multi-LLM Bridge (C#/.NET 8 — `royalice/`)
 - Particle-field simulation with charge, mass, frequency, velocity, and quantum-state size.
 - Hawking radiation calculations and hash-space system-state representation.
@@ -146,6 +147,8 @@ cd QNT-Blue/QuantumCompute/Bin64/QuantumMeshDLL/build
 cmake ..
 cmake --build .
 ```
+track 
+https://open.spotify.com/track/2iE27YkP4uYofICZEiPw9U?si=a914ed823a164cb9
 
 ## Tooling Notes
 
@@ -164,3 +167,4 @@ cmake --build .
 be ware there are people outsideboundvoice\probe-sequence\spectrum_analysis
 python live_terminal_sender.py
 <img width="860" height="484" alt="image" src="https://github.com/user-attachments/assets/ae305acc-b69f-4fbf-811e-b0e10ad0563b" />
+  
