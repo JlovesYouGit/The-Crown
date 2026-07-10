@@ -161,3 +161,5 @@ cmake --build .
 - The Magi-Zone bridge requires `node` to be available on `PATH`.
 - `QNT-Blue` is a conceptual/demonstration codebase; quantum acceleration depends on target hardware and drivers.
 - `royalice` requires a .NET 8 SDK; real LLM calls require valid API keys.
+be ware there are people outsideboundvoice\probe-sequence\spectrum_analysis
+python live_terminal_sender.py
