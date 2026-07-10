@@ -1,0 +1,2037 @@
+{
+  "stops": [
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+      "narrative_tick": 3800708100,
+      "pulse": 5,
+      "q_factor": 78125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 1,
+        "power": 5,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 5,
+        "signal_hash": "75ac8a51b4b5e83f"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:03:05.456696Z",
+      "narrative_tick": 3893773100,
+      "pulse": 5,
+      "q_factor": 3125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:03:05.596077Z",
+      "narrative_tick": 4033547700,
+      "pulse": 5,
+      "q_factor": 125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 5,
+        "power": 3125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 3125,
+        "signal_hash": "ba94df9345e83e24"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:03:05.757140Z",
+      "narrative_tick": 4194419900,
+      "pulse": 5,
+      "q_factor": 1953125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:03:05.956953Z",
+      "narrative_tick": 4395354300,
+      "pulse": 5,
+      "q_factor": 125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:03:21.192082Z",
+      "narrative_tick": 839813600,
+      "pulse": 5,
+      "q_factor": 6103515625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:03:21.388510Z",
+      "narrative_tick": 1036426400,
+      "pulse": 5,
+      "q_factor": 244140625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:03:21.669577Z",
+      "narrative_tick": 1318055000,
+      "pulse": 5,
+      "q_factor": 625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:03:21.948394Z",
+      "narrative_tick": 1596597600,
+      "pulse": 5,
+      "q_factor": 25,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:03:22.257949Z",
+      "narrative_tick": 1905626400,
+      "pulse": 5,
+      "q_factor": 390625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:04:09.246425Z",
+      "narrative_tick": 784262500,
+      "pulse": 5,
+      "q_factor": 30517578125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:04:09.534238Z",
+      "narrative_tick": 1071984300,
+      "pulse": 5,
+      "q_factor": 625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:04:13.034919Z",
+      "narrative_tick": 4572911400,
+      "pulse": 5,
+      "q_factor": 78125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:04:13.343519Z",
+      "narrative_tick": 4881543500,
+      "pulse": 5,
+      "q_factor": 625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:04:13.683471Z",
+      "narrative_tick": 5221232300,
+      "pulse": 5,
+      "q_factor": 1953125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 5,
+        "power": 3125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 3125,
+        "signal_hash": "ba94df9345e83e24"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:04:53.788910Z",
+      "narrative_tick": 762110400,
+      "pulse": 5,
+      "q_factor": 390625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:04:54.138716Z",
+      "narrative_tick": 1111869800,
+      "pulse": 5,
+      "q_factor": 625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:04:54.644739Z",
+      "narrative_tick": 1617776600,
+      "pulse": 5,
+      "q_factor": 9765625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:04:55.254755Z",
+      "narrative_tick": 2227475300,
+      "pulse": 5,
+      "q_factor": 1220703125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:04:55.699297Z",
+      "narrative_tick": 2672616900,
+      "pulse": 5,
+      "q_factor": 5,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:20:14.977136Z",
+      "narrative_tick": 903468600,
+      "pulse": 5,
+      "q_factor": 6103515625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:20:15.485883Z",
+      "narrative_tick": 1411642600,
+      "pulse": 5,
+      "q_factor": 1953125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:20:16.110007Z",
+      "narrative_tick": 2035618900,
+      "pulse": 5,
+      "q_factor": 30517578125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:20:16.832104Z",
+      "narrative_tick": 2758549400,
+      "pulse": 5,
+      "q_factor": 125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 1,
+        "power": 5,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 5,
+        "signal_hash": "75ac8a51b4b5e83f"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:20:17.377600Z",
+      "narrative_tick": 3303538600,
+      "pulse": 5,
+      "q_factor": 30517578125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:02.035381Z",
+      "narrative_tick": 815949000,
+      "pulse": 5,
+      "q_factor": 48828125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:05.554895Z",
+      "narrative_tick": 4334200100,
+      "pulse": 5,
+      "q_factor": 15625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:06.197904Z",
+      "narrative_tick": 4977157500,
+      "pulse": 5,
+      "q_factor": 244140625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:06.786445Z",
+      "narrative_tick": 5565565400,
+      "pulse": 5,
+      "q_factor": 9765625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:07.357912Z",
+      "narrative_tick": 6137338700,
+      "pulse": 5,
+      "q_factor": 1953125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:07.902238Z",
+      "narrative_tick": 6681651500,
+      "pulse": 5,
+      "q_factor": 6103515625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:08.595552Z",
+      "narrative_tick": 7374729000,
+      "pulse": 5,
+      "q_factor": 25,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:09.232963Z",
+      "narrative_tick": 8012062700,
+      "pulse": 5,
+      "q_factor": 1953125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:09.831360Z",
+      "narrative_tick": 8610852500,
+      "pulse": 5,
+      "q_factor": 625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 5,
+        "power": 3125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 3125,
+        "signal_hash": "ba94df9345e83e24"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:10.440256Z",
+      "narrative_tick": 9219471300,
+      "pulse": 5,
+      "q_factor": 1220703125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:11.077541Z",
+      "narrative_tick": 9856903600,
+      "pulse": 5,
+      "q_factor": 48828125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:11.741497Z",
+      "narrative_tick": 10520844500,
+      "pulse": 5,
+      "q_factor": 15625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:12.457401Z",
+      "narrative_tick": 11236982100,
+      "pulse": 5,
+      "q_factor": 1,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:13.149065Z",
+      "narrative_tick": 11928418700,
+      "pulse": 5,
+      "q_factor": 48828125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:13.942248Z",
+      "narrative_tick": 12721886400,
+      "pulse": 5,
+      "q_factor": 244140625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:14.822542Z",
+      "narrative_tick": 13601537500,
+      "pulse": 5,
+      "q_factor": 9765625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:15.570389Z",
+      "narrative_tick": 14350166200,
+      "pulse": 5,
+      "q_factor": 6103515625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:16.289093Z",
+      "narrative_tick": 15068167400,
+      "pulse": 5,
+      "q_factor": 1220703125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 5,
+        "power": 3125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 3125,
+        "signal_hash": "ba94df9345e83e24"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:17.027714Z",
+      "narrative_tick": 15807406300,
+      "pulse": 5,
+      "q_factor": 48828125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 5,
+        "power": 3125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 3125,
+        "signal_hash": "ba94df9345e83e24"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:17.822467Z",
+      "narrative_tick": 16601705300,
+      "pulse": 5,
+      "q_factor": 48828125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:18.591526Z",
+      "narrative_tick": 17370534200,
+      "pulse": 5,
+      "q_factor": 5,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:19.383092Z",
+      "narrative_tick": 18162311700,
+      "pulse": 5,
+      "q_factor": 244140625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:20.207538Z",
+      "narrative_tick": 18987275000,
+      "pulse": 5,
+      "q_factor": 3125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:21.075030Z",
+      "narrative_tick": 19854484100,
+      "pulse": 5,
+      "q_factor": 625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:21.944330Z",
+      "narrative_tick": 20723985000,
+      "pulse": 5,
+      "q_factor": 25,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:22.989739Z",
+      "narrative_tick": 21769469000,
+      "pulse": 5,
+      "q_factor": 48828125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:23.947253Z",
+      "narrative_tick": 22727061500,
+      "pulse": 5,
+      "q_factor": 15625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:24.868618Z",
+      "narrative_tick": 23648017100,
+      "pulse": 5,
+      "q_factor": 625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:25.777810Z",
+      "narrative_tick": 24557652000,
+      "pulse": 5,
+      "q_factor": 9765625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:27.020474Z",
+      "narrative_tick": 25799881800,
+      "pulse": 5,
+      "q_factor": 125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:27.991324Z",
+      "narrative_tick": 26770530600,
+      "pulse": 5,
+      "q_factor": 625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:29.007190Z",
+      "narrative_tick": 27786905700,
+      "pulse": 5,
+      "q_factor": 30517578125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:30.023108Z",
+      "narrative_tick": 28802633300,
+      "pulse": 5,
+      "q_factor": 125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:31.206827Z",
+      "narrative_tick": 29985999400,
+      "pulse": 5,
+      "q_factor": 25,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:32.392359Z",
+      "narrative_tick": 31172459800,
+      "pulse": 5,
+      "q_factor": 625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:33.472813Z",
+      "narrative_tick": 32251909200,
+      "pulse": 5,
+      "q_factor": 48828125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 5,
+        "power": 3125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 3125,
+        "signal_hash": "ba94df9345e83e24"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:34.507346Z",
+      "narrative_tick": 33286377400,
+      "pulse": 5,
+      "q_factor": 625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:35.542259Z",
+      "narrative_tick": 34321653100,
+      "pulse": 5,
+      "q_factor": 244140625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:36.657157Z",
+      "narrative_tick": 35437046800,
+      "pulse": 5,
+      "q_factor": 390625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:37.709670Z",
+      "narrative_tick": 36488696800,
+      "pulse": 5,
+      "q_factor": 3125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 5,
+        "power": 3125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 3125,
+        "signal_hash": "ba94df9345e83e24"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:38.940049Z",
+      "narrative_tick": 37719975200,
+      "pulse": 5,
+      "q_factor": 78125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:40.166218Z",
+      "narrative_tick": 38946171600,
+      "pulse": 5,
+      "q_factor": 244140625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:41.349404Z",
+      "narrative_tick": 40128697700,
+      "pulse": 5,
+      "q_factor": 6103515625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:42.647844Z",
+      "narrative_tick": 41427245400,
+      "pulse": 5,
+      "q_factor": 25,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:44.132245Z",
+      "narrative_tick": 42912076600,
+      "pulse": 5,
+      "q_factor": 1953125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:45.976337Z",
+      "narrative_tick": 44755574700,
+      "pulse": 5,
+      "q_factor": 1,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:47.369670Z",
+      "narrative_tick": 46148796300,
+      "pulse": 5,
+      "q_factor": 48828125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:48.623941Z",
+      "narrative_tick": 47403115000,
+      "pulse": 5,
+      "q_factor": 6103515625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:49.941948Z",
+      "narrative_tick": 48721240400,
+      "pulse": 5,
+      "q_factor": 1953125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:22:51.236415Z",
+      "narrative_tick": 50016159400,
+      "pulse": 5,
+      "q_factor": 1953125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:29:33.034382Z",
+      "narrative_tick": 771369900,
+      "pulse": 5,
+      "q_factor": 48828125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:29:34.471265Z",
+      "narrative_tick": 2208177300,
+      "pulse": 5,
+      "q_factor": 625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:29:35.857691Z",
+      "narrative_tick": 3594381000,
+      "pulse": 5,
+      "q_factor": 390625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 1,
+        "power": 5,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 5,
+        "signal_hash": "75ac8a51b4b5e83f"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:43:43.679236Z",
+      "narrative_tick": 796097400,
+      "pulse": 5,
+      "q_factor": 5,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:53:34.744480Z",
+      "narrative_tick": 588904200,
+      "pulse": 5,
+      "q_factor": 30517578125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 1,
+        "power": 5,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 5,
+        "signal_hash": "75ac8a51b4b5e83f"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:56:11.517404Z",
+      "narrative_tick": 589108800,
+      "pulse": 5,
+      "q_factor": 244140625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:56:12.942099Z",
+      "narrative_tick": 2013522400,
+      "pulse": 5,
+      "q_factor": 3125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:56:14.380416Z",
+      "narrative_tick": 3450774100,
+      "pulse": 5,
+      "q_factor": 244140625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:56:15.743635Z",
+      "narrative_tick": 4814181800,
+      "pulse": 5,
+      "q_factor": 1953125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:56:17.163631Z",
+      "narrative_tick": 6234192300,
+      "pulse": 5,
+      "q_factor": 5,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:56:50.275318Z",
+      "narrative_tick": 748965700,
+      "pulse": 5,
+      "q_factor": 78125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:56:51.974962Z",
+      "narrative_tick": 2448726700,
+      "pulse": 5,
+      "q_factor": 15625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:56:53.582783Z",
+      "narrative_tick": 4056144400,
+      "pulse": 5,
+      "q_factor": 9765625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:57:24.545076Z",
+      "narrative_tick": 2013038300,
+      "pulse": 5,
+      "q_factor": 6103515625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:57:27.455573Z",
+      "narrative_tick": 4923554400,
+      "pulse": 5,
+      "q_factor": 25,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T01:57:30.168675Z",
+      "narrative_tick": 7636905700,
+      "pulse": 5,
+      "q_factor": 390625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T22:11:29.593589Z",
+      "narrative_tick": 1778344700,
+      "pulse": 5,
+      "q_factor": 6103515625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T22:11:32.013826Z",
+      "narrative_tick": 4198298500,
+      "pulse": 5,
+      "q_factor": 25,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T22:11:34.337602Z",
+      "narrative_tick": 6522240800,
+      "pulse": 5,
+      "q_factor": 125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T22:13:19.312542Z",
+      "narrative_tick": 1617278600,
+      "pulse": 5,
+      "q_factor": 6103515625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T22:13:21.654894Z",
+      "narrative_tick": 3959364100,
+      "pulse": 5,
+      "q_factor": 125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T22:13:24.158459Z",
+      "narrative_tick": 6462442000,
+      "pulse": 5,
+      "q_factor": 6103515625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T22:14:54.314075Z",
+      "narrative_tick": 1667360200,
+      "pulse": 5,
+      "q_factor": 390625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T22:14:56.876672Z",
+      "narrative_tick": 4230418800,
+      "pulse": 5,
+      "q_factor": 390625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 5,
+        "power": 3125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 3125,
+        "signal_hash": "ba94df9345e83e24"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T22:14:59.372756Z",
+      "narrative_tick": 6726660300,
+      "pulse": 5,
+      "q_factor": 5,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T22:17:13.353103Z",
+      "narrative_tick": 1647418900,
+      "pulse": 5,
+      "q_factor": 15625,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T22:17:15.940996Z",
+      "narrative_tick": 4235315900,
+      "pulse": 5,
+      "q_factor": 1953125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T22:17:18.510233Z",
+      "narrative_tick": 6804434300,
+      "pulse": 5,
+      "q_factor": 25,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T22:20:34.410779Z",
+      "narrative_tick": 1775093700,
+      "pulse": 5,
+      "q_factor": 125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T22:20:36.883231Z",
+      "narrative_tick": 4246804900,
+      "pulse": 5,
+      "q_factor": 1220703125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-07T22:20:39.414160Z",
+      "narrative_tick": 6777764000,
+      "pulse": 5,
+      "q_factor": 30517578125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "stopped_at_iso": "2026-07-09T22:53:44.790817Z",
+      "narrative_tick": 2645212500,
+      "pulse": 5,
+      "q_factor": 78125,
+      "momentum": 0.0,
+      "original_density": 0,
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "9a46cc6de68acf46"
+      },
+      "wallet_found": false,
+      "metadata": {}
+    }
+  ]
+}

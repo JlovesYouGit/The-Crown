@@ -1,0 +1,56 @@
+{
+  "started_at": 1783471642.4587917,
+  "finished_at": 1783471643.1425285,
+  "origin": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "point_cloud_count": 2,
+  "spatial_sources_found": 2,
+  "http_sessions_enumerated": 0,
+  "external_remote_addresses": [],
+  "enumerated_sources": [
+    {
+      "source_id": "spatial_0",
+      "source_type": "http_session",
+      "identifier": "spatial_0",
+      "frequency_mhz": null,
+      "band": null,
+      "channel": null,
+      "signal_percent": null,
+      "spatial_origin": {
+        "x": 10.0,
+        "y": 0.0,
+        "z": 0.0,
+        "distance": 10.0,
+        "bearing_deg": 0.0,
+        "elevation_deg": 0.0
+      },
+      "connection_record": null,
+      "tune_ack": null,
+      "timestamp": 1783471642.4602988
+    },
+    {
+      "source_id": "spatial_1",
+      "source_type": "http_session",
+      "identifier": "spatial_1",
+      "frequency_mhz": null,
+      "band": null,
+      "channel": null,
+      "signal_percent": null,
+      "spatial_origin": {
+        "x": 0.0,
+        "y": 10.0,
+        "z": 0.0,
+        "distance": 10.0,
+        "bearing_deg": 90.0,
+        "elevation_deg": 0.0
+      },
+      "connection_record": null,
+      "tune_ack": null,
+      "timestamp": 1783471642.4602988
+    }
+  ],
+  "safe_execution": false
+}

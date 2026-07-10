@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>false</UseWindowsForms>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <StartupObject>QuantumEnergyService.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Numerics" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="ArmorBiosOptimizationService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ArmorBiosOptimizationServiceInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ArmorBiosOptimizationServiceInstaller.Designer.cs">
+      <DependentUpon>ArmorBiosOptimizationServiceInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BiosCommunicationModule.cs" />
+    <Compile Include="CosmicQubitManagementService.cs" />
+    <Compile Include="CosmicQubitWindowsService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CosmicQubitWindowsService.Designer.cs">
+      <DependentUpon>CosmicQubitWindowsService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CosmicQubitServiceInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HardwareCommunicationModule.cs" />
+    <Compile Include="InvisibleBiosGatewayService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InvisibleBiosGatewayServiceInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InvisibleBiosGatewayServiceInstaller.Designer.cs">
+      <DependentUpon>InvisibleBiosGatewayServiceInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntegratedEnergyCoolingService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IntegratedEnergyCoolingServiceInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IntegratedEnergyCoolingServiceInstaller.Designer.cs">
+      <DependentUpon>IntegratedEnergyCoolingServiceInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+
+</Project>

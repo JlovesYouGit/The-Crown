@@ -1,0 +1,609 @@
+{
+  "status": "max_iterations_reached",
+  "total_iterations": 1,
+  "converged": false,
+  "final_entropy": 4.631460563579475,
+  "final_coherence": 1.0,
+  "entropy_history": [
+    4.570617578982033
+  ],
+  "coherence_history": [
+    1.0
+  ],
+  "node_modifications": [
+    {
+      "iteration": 0,
+      "node": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "container": "stack_container",
+      "boost": 2.262490405990697,
+      "coherence": 1.0,
+      "entropy": 4.495669773335198
+    }
+  ],
+  "safety_events": [
+    {
+      "iteration": 0,
+      "action": "strong_signal_holdoff_higher_accel_zone",
+      "policy": {
+        "action": "holdoff_higher_accel_zone",
+        "density_boost_multiplier": 0.35,
+        "holdoff_set": true
+      },
+      "observed": {
+        "strong_score": 46.141200000000005,
+        "strong_threshold": 25.0,
+        "flagged_layers": [
+          {
+            "layer": "Layer 6",
+            "layer_hash": "e5765f16eb9e56d4",
+            "strength_proxy": 29.7114
+          },
+          {
+            "layer": "Layer 7",
+            "layer_hash": "4c0cd0dcc06ed53d",
+            "strength_proxy": 38.556000000000004
+          },
+          {
+            "layer": "Layer 8",
+            "layer_hash": "7709d8b50103a1b6",
+            "strength_proxy": 46.141200000000005
+          },
+          {
+            "layer": "Layer 9",
+            "layer_hash": "5d933c73164cee4d",
+            "strength_proxy": 46.1196
+          },
+          {
+            "layer": "Layer 10",
+            "layer_hash": "6a42a96b591ef0b2",
+            "strength_proxy": 41.0368
+          }
+        ]
+      },
+      "flags": {
+        "strong_signal": true
+      },
+      "timestamp": 1783637623.0862541
+    },
+    {
+      "iteration": 0,
+      "risk_score": 0.9,
+      "action": "holdoff_higher_accel_zone",
+      "policy": {
+        "action": "holdoff_higher_accel_zone",
+        "density_boost_multiplier": 0.35,
+        "holdoff_set": true
+      },
+      "observed": {
+        "entropy": 0.0,
+        "coherence": 0.0,
+        "density_boost": 0.0,
+        "brain_energy": 0.0
+      },
+      "flags": {
+        "entropy_spike": true,
+        "coherence_collapse": false,
+        "density_runaway": false,
+        "energy_runaway": false,
+        "in_holdoff": false
+      },
+      "timestamp": 1783637623.0872495,
+      "spatial_expander": {
+        "hotspot": {
+          "lat_deg": 75.0,
+          "lon_deg": 105.0,
+          "heat": 0.9228
+        },
+        "escape_vector": {
+          "lat_deg": -75.0,
+          "lon_deg": -75.0,
+          "note": "Higher-acceleration zone coordinate away from direct impact."
+        },
+        "output_path": "E:\\DOWNLOADs\\outsideboundvoice\\probe-sequence\\spectrum_data\\earth_coverage_field.json"
+      },
+      "neural_threat_sweep": {
+        "stopped_count": 6,
+        "dangerous_count": 0,
+        "threats": [
+          {
+            "id": "layer_6_e5765f16",
+            "source": "analysis_report",
+            "label": "Layer 6 strong signal (29.7)",
+            "heat": 0.594228,
+            "phrases": [
+              "shield entropy"
+            ],
+            "origin3d": [
+              5754.351666736628,
+              -2525.9837797956025,
+              -1047.1312428415592
+            ]
+          },
+          {
+            "id": "layer_7_4c0cd0dc",
+            "source": "analysis_report",
+            "label": "Layer 7 strong signal (38.6)",
+            "heat": 0.7711200000000001,
+            "phrases": [
+              "shield entropy"
+            ],
+            "origin3d": [
+              2972.842059989239,
+              -2398.781143701876,
+              5098.793985932287
+            ]
+          },
+          {
+            "id": "layer_8_7709d8b5",
+            "source": "analysis_report",
+            "label": "Layer 8 strong signal (46.1)",
+            "heat": 0.9228240000000001,
+            "phrases": [
+              "shield entropy"
+            ],
+            "origin3d": [
+              718.8253105452939,
+              -2051.4949726900873,
+              5988.6809524257305
+            ]
+          },
+          {
+            "id": "layer_9_5d933c73",
+            "source": "analysis_report",
+            "label": "Layer 9 strong signal (46.1)",
+            "heat": 0.922392,
+            "phrases": [
+              "shield entropy"
+            ],
+            "origin3d": [
+              -5556.112516537277,
+              -1290.9035746462664,
+              -2837.749577489757
+            ]
+          },
+          {
+            "id": "layer_10_6a42a96b",
+            "source": "analysis_report",
+            "label": "Layer 10 strong signal (41.0)",
+            "heat": 0.820736,
+            "phrases": [
+              "shield entropy"
+            ],
+            "origin3d": [
+              1747.1678543716962,
+              1854.0494899832001,
+              5839.481653138679
+            ]
+          },
+          {
+            "id": "hotspot_earth_field",
+            "source": "earth_coverage_field",
+            "label": "Hotspot heat=0.9228",
+            "heat": 0.9228,
+            "phrases": [
+              "shield entropy"
+            ],
+            "origin3d": [
+              426.77607624466987,
+              -1592.75,
+              6153.913439287654
+            ]
+          }
+        ],
+        "acks": [
+          {
+            "threat_id": "layer_6_e5765f16",
+            "stopped": true,
+            "permitted": true,
+            "executed": true,
+            "reality_tear": 0.33880711651824985,
+            "tier": 2,
+            "error": null
+          },
+          {
+            "threat_id": "layer_7_4c0cd0dc",
+            "stopped": true,
+            "permitted": true,
+            "executed": true,
+            "reality_tear": 0.3098620301907448,
+            "tier": 3,
+            "error": null
+          },
+          {
+            "threat_id": "layer_8_7709d8b5",
+            "stopped": true,
+            "permitted": true,
+            "executed": true,
+            "reality_tear": 0.2931090086343005,
+            "tier": 3,
+            "error": null
+          },
+          {
+            "threat_id": "layer_9_5d933c73",
+            "stopped": true,
+            "permitted": true,
+            "executed": true,
+            "reality_tear": 0.2973936288363693,
+            "tier": 3,
+            "error": null
+          },
+          {
+            "threat_id": "layer_10_6a42a96b",
+            "stopped": true,
+            "permitted": true,
+            "executed": true,
+            "reality_tear": 0.29000403937433616,
+            "tier": 3,
+            "error": null
+          },
+          {
+            "threat_id": "hotspot_earth_field",
+            "stopped": true,
+            "permitted": true,
+            "executed": true,
+            "reality_tear": 0.29341651479128517,
+            "tier": 3,
+            "error": null
+          }
+        ]
+      }
+    }
+  ],
+  "final_reality": {
+    "node_count": 0,
+    "total_density": 0.0,
+    "container_count": 1,
+    "total_stack_density": 0.0
+  },
+  "narrative_state": {
+    "base_quantum_ns": 4,
+    "elapsed_ns": 5126948700,
+    "elapsed_ticks": 1281737175.0,
+    "pulse": 5,
+    "q_factor": 78125
+  },
+  "proximity_trajectory": {
+    "started_at": 1783637636.324935,
+    "finished_at": 1783637646.2963736,
+    "origin": {
+      "source": "earth_coverage_field",
+      "origin3d": [
+        -6371.0,
+        7.802224757367787e-13,
+        3.9011123786838936e-13
+      ],
+      "escape_movement": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "target_planet": {
+      "key": "mars",
+      "name": "Mars",
+      "ra_hours": 2.6,
+      "dec_deg": 15.0,
+      "life_potential": 0.8,
+      "intelligence_potential": 0.7,
+      "approximate_distance_km": 15416.959,
+      "angular_separation_rad": 2.419865
+    },
+    "celestial_trajectory": [
+      {
+        "hop_id": "d0baadaebef210fa",
+        "origin_ra_rad": 3.141592653589793,
+        "origin_dec_rad": 6.123233995736766e-17,
+        "target_ra_rad": 3.428776034168407,
+        "target_dec_rad": 0.1748906636248313,
+        "position_xyz": [
+          -6016.873055902205,
+          -1777.070909574627,
+          1108.556995152558
+        ],
+        "arc_length_km": 8538.419603747887,
+        "angular_distance_rad": 1.340200848178918,
+        "energy_per_tick": 1.4922120578169595,
+        "anchor_id": "Arcturus"
+      },
+      {
+        "hop_id": "1db964afa33b7b86",
+        "origin_ra_rad": 3.141592653589793,
+        "origin_dec_rad": 6.123233995736766e-17,
+        "target_ra_rad": 3.428751426506443,
+        "target_dec_rad": 0.1749025043809474,
+        "position_xyz": [
+          -6016.904194549544,
+          -1776.9191300333484,
+          1108.6312817766022
+        ],
+        "arc_length_km": 8538.609172132507,
+        "angular_distance_rad": 1.3402306030658462,
+        "energy_per_tick": 1.4921458056463301,
+        "anchor_id": "Arcturus"
+      },
+      {
+        "hop_id": "a9f37c735f394c65",
+        "origin_ra_rad": 3.141592653589793,
+        "origin_dec_rad": 6.123233995736766e-17,
+        "target_ra_rad": 3.365305963826656,
+        "target_dec_rad": -0.5547994740384591,
+        "position_xyz": [
+          -5280.4393011375305,
+          -1201.4144023244255,
+          -3356.0699070325754
+        ],
+        "arc_length_km": 15134.247941888949,
+        "angular_distance_rad": 2.375490180801907,
+        "energy_per_tick": 0.8418933455454508,
+        "anchor_id": "Alpha Cen"
+      },
+      {
+        "hop_id": "510889f19984594d",
+        "origin_ra_rad": 3.141592653589793,
+        "origin_dec_rad": 6.123233995736766e-17,
+        "target_ra_rad": 3.3652729346495955,
+        "target_dec_rad": -0.5547924208722976,
+        "position_xyz": [
+          -5280.502061076487,
+          -1201.2452437510324,
+          -3356.0317113121123
+        ],
+        "arc_length_km": 15134.47235385769,
+        "angular_distance_rad": 2.3755254047806766,
+        "energy_per_tick": 0.8418683800789538,
+        "anchor_id": "Alpha Cen"
+      },
+      {
+        "hop_id": "4a48fc4f76588ef6",
+        "origin_ra_rad": 3.141592653589793,
+        "origin_dec_rad": 6.123233995736766e-17,
+        "target_ra_rad": 2.472136263207266,
+        "target_dec_rad": -0.18761920989302389,
+        "position_xyz": [
+          -4908.205544557354,
+          3884.2053470707706,
+          -1188.321570183463
+        ],
+        "arc_length_km": 17611.814922376692,
+        "angular_distance_rad": 2.764372142893846,
+        "energy_per_tick": 0.7235741694910076,
+        "anchor_id": "Sirius"
+      },
+      {
+        "hop_id": "9405707352e83a5c",
+        "origin_ra_rad": 3.141592653589793,
+        "origin_dec_rad": 6.123233995736766e-17,
+        "target_ra_rad": 2.4721610003533896,
+        "target_dec_rad": -0.1876357538863703,
+        "position_xyz": [
+          -4908.286209995074,
+          3884.071730786759,
+          -1188.4251221155384
+        ],
+        "arc_length_km": 17612.067859755276,
+        "angular_distance_rad": 2.7644118442560472,
+        "energy_per_tick": 0.7235533840596383,
+        "anchor_id": "Sirius"
+      }
+    ],
+    "magi_zone_pathing": {
+      "started_at": 1783637646.294336,
+      "voice_phrases": [
+        "ward",
+        "shield",
+        "manifest"
+      ],
+      "start_origin3d": [
+        -6371.0,
+        7.802224757367787e-13,
+        3.9011123786838936e-13
+      ],
+      "steps": 6,
+      "candidates_per_step": 8,
+      "radius": 10.0,
+      "path": [
+        {
+          "step_index": 0,
+          "origin3d": [
+            -6371.0,
+            7.802224757367787e-13,
+            3.9011123786838936e-13
+          ],
+          "chosen_target": [
+            -6378.369245218294,
+            -3.226929876082852,
+            0.6653114721004074
+          ],
+          "movementVector": [
+            -7.369245218294054,
+            -3.2269298760836325,
+            0.6653114721000173
+          ],
+          "ack_executed": true,
+          "ack_permitted": true,
+          "ack_tier": 2,
+          "score": 10.731650508012304,
+          "reality_tear": 0.3577615652429584,
+          "timestamp": 1783637638.1414702
+        },
+        {
+          "step_index": 1,
+          "origin3d": [
+            -6378.369245218294,
+            -3.226929876082852,
+            0.6653114721004074
+          ],
+          "chosen_target": [
+            -6372.190284656931,
+            -6.556422499865736,
+            4.56126795065787
+          ],
+          "movementVector": [
+            6.178960561363056,
+            -3.3294926237828837,
+            3.895956478557462
+          ],
+          "ack_executed": true,
+          "ack_permitted": true,
+          "ack_tier": 2,
+          "score": 10.594089054499724,
+          "reality_tear": 0.3456041079871673,
+          "timestamp": 1783637639.6302624
+        },
+        {
+          "step_index": 2,
+          "origin3d": [
+            -6372.190284656931,
+            -6.556422499865736,
+            4.56126795065787
+          ],
+          "chosen_target": [
+            -6374.1602073086615,
+            -12.736587646402198,
+            3.0076246576267978
+          ],
+          "movementVector": [
+            -1.969922651730485,
+            -6.180165146536462,
+            -1.553643293031072
+          ],
+          "ack_executed": true,
+          "ack_permitted": true,
+          "ack_tier": 2,
+          "score": 8.815888816304634,
+          "reality_tear": 0.29061277903338345,
+          "timestamp": 1783637641.0554104
+        },
+        {
+          "step_index": 3,
+          "origin3d": [
+            -6374.1602073086615,
+            -12.736587646402198,
+            3.0076246576267978
+          ],
+          "chosen_target": [
+            -6368.242276205885,
+            -17.16456058058852,
+            1.5497712296051043
+          ],
+          "movementVector": [
+            5.9179311027764925,
+            -4.427972934186323,
+            -1.4578534280216935
+          ],
+          "ack_executed": true,
+          "ack_permitted": true,
+          "ack_tier": 2,
+          "score": 10.173050237316083,
+          "reality_tear": 0.3551630311982152,
+          "timestamp": 1783637642.774094
+        },
+        {
+          "step_index": 4,
+          "origin3d": [
+            -6368.242276205885,
+            -17.16456058058852,
+            1.5497712296051043
+          ],
+          "chosen_target": [
+            -6373.1013932882415,
+            -21.604888681178625,
+            -2.102648630560715
+          ],
+          "movementVector": [
+            -4.8591170823565335,
+            -4.440328100590104,
+            -3.6524198601658195
+          ],
+          "ack_executed": true,
+          "ack_permitted": true,
+          "ack_tier": 2,
+          "score": 9.725489604886329,
+          "reality_tear": 0.2973867831438524,
+          "timestamp": 1783637644.8247201
+        },
+        {
+          "step_index": 5,
+          "origin3d": [
+            -6373.1013932882415,
+            -21.604888681178625,
+            -2.102648630560715
+          ],
+          "chosen_target": [
+            -6379.934218707235,
+            -25.03756857520326,
+            0.18873660124590108
+          ],
+          "movementVector": [
+            -6.832825418993707,
+            -3.432679894024634,
+            2.291385231806616
+          ],
+          "ack_executed": true,
+          "ack_permitted": true,
+          "ack_tier": 2,
+          "score": 10.40824684456482,
+          "reality_tear": 0.32720139451505326,
+          "timestamp": 1783637646.294336
+        }
+      ],
+      "finished_at": 1783637646.294336
+    },
+    "safe_execution": true
+  },
+  "timebase_measurement": {
+    "derived_from": "celestial_trajectory.energy_per_tick",
+    "num_hops": 6,
+    "total_a_loc": 6.11524714263834,
+    "per_hop": [
+      {
+        "hop_idx": 0,
+        "hop_id": "d0baadaebef210fa",
+        "energy_per_tick": 1.4922120578169595,
+        "a_loc": 1.4922120578169595,
+        "narrative_q": 2,
+        "a_loc_ratio": 0.9999999999993298
+      },
+      {
+        "hop_idx": 1,
+        "hop_id": "1db964afa33b7b86",
+        "energy_per_tick": 1.4921458056463301,
+        "a_loc": 1.4921458056463301,
+        "narrative_q": 2,
+        "a_loc_ratio": 0.49998890009599045
+      },
+      {
+        "hop_idx": 2,
+        "hop_id": "a9f37c735f394c65",
+        "energy_per_tick": 0.8418933455454508,
+        "a_loc": 0.8418933455454508,
+        "narrative_q": 1,
+        "a_loc_ratio": 0.22003086037922182
+      },
+      {
+        "hop_idx": 3,
+        "hop_id": "510889f19984594d",
+        "energy_per_tick": 0.8418683800789538,
+        "a_loc": 0.8418683800789538,
+        "narrative_q": 1,
+        "a_loc_ratio": 0.18034421869712694
+      },
+      {
+        "hop_idx": 4,
+        "hop_id": "4a48fc4f76588ef6",
+        "energy_per_tick": 0.7235741694910076,
+        "a_loc": 0.7235741694910076,
+        "narrative_q": 1,
+        "a_loc_ratio": 0.13420164458331807
+      },
+      {
+        "hop_idx": 5,
+        "hop_id": "9405707352e83a5c",
+        "energy_per_tick": 0.7235533840596383,
+        "a_loc": 0.7235533840596383,
+        "narrative_q": 1,
+        "a_loc_ratio": 0.11831956537203052
+      }
+    ]
+  }
+}

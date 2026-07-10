@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantum State Resizer (QSR) Monitor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --neon-green: #39ff14;
+      --neon-blue: #00f3ff;
+      --neon-red: #ff3131;
+      --dark-bg: #030712;
+      --glass: rgba(17, 24, 39, 0.7);
+    }
+
+    body {
+      background-color: var(--dark-bg);
+      color: #f3f4f6;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      overflow: hidden;
+      display: flex;
+      height: 100vh;
+    }
+
+    /* Side Dashboard */
+    .dashboard {
+      width: 350px;
+      background: var(--glass);
+      backdrop-filter: blur(20px);
+      border-right: 1px solid rgba(57, 255, 20, 0.2);
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      z-index: 10;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.1rem;
+      color: var(--neon-green);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--neon-green);
+      padding-bottom: 0.5rem;
+    }
+
+    .stat-card {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 1rem;
+      border-left: 2px solid var(--neon-blue);
+      border-radius: 4px;
+    }
+
+    .stat-label {
+      font-size: 0.7rem;
+      color: #9ca3af;
+      text-transform: uppercase;
+      margin-bottom: 0.2rem;
+    }
+
+    .stat-value {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.2rem;
+      color: #fff;
+    }
+
+    .controls {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .btn-trigger {
+      background: transparent;
+      border: 1px solid var(--neon-red);
+      color: var(--neon-red);
+      padding: 1rem;
+      font-family: 'Orbitron', sans-serif;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn-trigger:hover {
+      background: var(--neon-red);
+      color: #000;
+      box-shadow: 0 0 15px var(--neon-red);
+    }
+
+    .btn-trigger.active {
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 5px var(--neon-red);
+      }
+
+      50% {
+        box-shadow: 0 0 25px var(--neon-red);
+      }
+
+      100% {
+        box-shadow: 0 0 5px var(--neon-red);
+      }
+    }
+
+    /* Viewport */
+    .viewport {
+      flex: 1;
+      position: relative;
+    }
+
+    #canvas {
+      width: 100%;
+      height: 100%;
+    }
+
+    .telemetry-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+  </style>
+</head>
+
+<body>
+  <aside class="dashboard">
+    <h1>QSR Core Monitor</h1>
+
+    <div class="controls">
+      <div class="stat-card">
+        <div class="stat-label">Singularity State</div>
+        <div class="stat-value" id="singularity-val">0.000</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-label">Decompression Rate</div>
+        <div class="stat-value" id="decomp-val">1.00e-3</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-label">Core Q-Size</div>
+        <div class="stat-value" id="qsize-val">1.00e-15 m</div>
+      </div>
+
+      <button class="btn-trigger" id="upforce-btn">Trigger Upforce Moment</button>
+    </div>
+
+    <div style="margin-top: auto;">
+      <div class="stat-label">System Frequency</div>
+      <div class="telemetry-row">
+        <span class="stat-value">1.0e15</span>
+        <span style="color: var(--neon-blue); font-size: 0.8rem;">Hz</span>
+      </div>
+    </div>
+  </aside>
+
+  <main class="viewport">
+    <canvas id="canvas"></canvas>
+  </main>
+
+  <script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    const PHI = 1.618033988749;
+    const ALPHA = 0.007297;
+
+    let width, height;
+    let upforceActive = false;
+    let qSize = 1e-15;
+    let singularity = 0.0;
+    let decompRate = 1e-3;
+    let time = 0;
+
+    function resize() {
+      width = canvas.width = canvas.parentElement.clientWidth;
+      height = canvas.height = canvas.parentElement.clientHeight;
+    }
+    window.addEventListener('resize', resize);
+    resize();
+
+    const btn = document.getElementById('upforce-btn');
+    btn.onclick = () => {
+      upforceActive = !upforceActive;
+      btn.classList.toggle('active');
+      btn.innerText = upforceActive ? "UPFORCE ACTIVE" : "TRIGGER UPFORCE MOMENT";
+    };
+
+    function update() {
+      const dt = 0.016;
+
+      if (upforceActive) {
+        // dq/dt = α × |F_up| × q × factor
+        // Simulated upforce based on PHI
+        const fUp = (1e-5 / qSize) * PHI;
+        const dq = ALPHA * fUp * qSize * dt;
+        qSize += dq;
+
+        singularity += 0.01;
+      } else {
+        // Natural decompression
+        if (qSize > 1e-15) {
+          qSize -= (qSize * 0.05 * dt);
+        }
+        singularity = Math.max(0, singularity - 0.02);
+      }
+
+      decompRate = 1e-3 * Math.exp(-singularity * 10);
+
+      // Update UI
+      document.getElementById('qsize-val').innerText = qSize.toExponential(2) + ' m';
+      document.getElementById('singularity-val').innerText = singularity.toFixed(3);
+      document.getElementById('decomp-val').innerText = decompRate.toExponential(2);
+
+      time += dt;
+    }
+
+    function draw() {
+      ctx.fillStyle = '#030712';
+      ctx.fillRect(0, 0, width, height);
+
+      const centerX = width / 2;
+      const centerY = height / 2;
+
+      // Draw Grid
+      ctx.strokeStyle = 'rgba(57, 255, 20, 0.05)';
+      ctx.lineWidth = 1;
+      for (let i = 0; i < width; i += 50) {
+        ctx.beginPath(); ctx.moveTo(i, 0); ctx.lineTo(i, height); ctx.stroke();
+      }
+      for (let i = 0; i < height; i += 50) {
+        ctx.beginPath(); ctx.moveTo(0, i); ctx.lineTo(width, i); ctx.stroke();
+      }
+
+      // Draw Quantum Electrode (Core)
+      const visualSize = Math.max(2, (qSize * 1e16));
+
+      // Glow Effect
+      const grad = ctx.createRadialGradient(centerX, centerY, 0, centerX, centerY, visualSize * 5);
+      const color = upforceActive ? 'rgba(255, 49, 49,' : 'rgba(0, 243, 255,';
+      grad.addColorStop(0, color + ' 0.5)');
+      grad.addColorStop(1, color + ' 0)');
+
+      ctx.fillStyle = grad;
+      ctx.beginPath();
+      ctx.arc(centerX, centerY, visualSize * 5, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Core
+      ctx.fillStyle = upforceActive ? '#ff3131' : '#00f3ff';
+      ctx.beginPath();
+      ctx.arc(centerX, centerY, visualSize, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Orbiting Potential
+      ctx.strokeStyle = upforceActive ? 'rgba(255, 49, 49, 0.3)' : 'rgba(0, 243, 255, 0.3)';
+      ctx.lineWidth = 2;
+      ctx.setLineDash([10, 20]);
+      ctx.beginPath();
+      ctx.arc(centerX, centerY, visualSize * 8, time * 2, time * 2 + Math.PI * 2);
+      ctx.stroke();
+      ctx.setLineDash([]);
+
+      // Upforce Arrows
+      if (upforceActive) {
+        ctx.strokeStyle = '#ff3131';
+        ctx.lineWidth = 3;
+        const arrowCount = 8;
+        for (let i = 0; i < arrowCount; i++) {
+          const angle = (i / arrowCount) * Math.PI * 2;
+          const x = centerX + Math.cos(angle) * (visualSize + 10);
+          const y = centerY + Math.sin(angle) * (visualSize + 10);
+          const tx = x + Math.cos(angle) * 30;
+          const ty = y + Math.sin(angle) * 30;
+
+          ctx.beginPath();
+          ctx.moveTo(x, y);
+          ctx.lineTo(tx, ty);
+          ctx.stroke();
+        }
+      }
+
+      update();
+      requestAnimationFrame(draw);
+    }
+
+    draw();
+  </script>
+</body>
+
+</html>

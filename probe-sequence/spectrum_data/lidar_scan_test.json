@@ -1,0 +1,10 @@
+{
+  "timestamp": "test",
+  "networks": [],
+  "point_cloud": [
+    {"x": 10.0, "y": 0.0, "z": 0.0, "distance": 10.0, "scan_angle": 0, "timestamp": 0.0},
+    {"x": 0.0, "y": 10.0, "z": 0.0, "distance": 10.0, "scan_angle": 90, "timestamp": 0.0}
+  ],
+  "scan_parameters": {"scan_radius": 100, "current_angle": 0, "total_points": 2}
+}
+

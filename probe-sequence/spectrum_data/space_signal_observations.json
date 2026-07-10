@@ -1,0 +1,378 @@
+{
+  "started_at": 1783566100.8881748,
+  "finished_at": 1783566103.4166524,
+  "origin": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "distance_ly": 100.0,
+  "radial_velocity_kps": 12.0,
+  "reference_channels_count": 10,
+  "space_bands_count": 9,
+  "directions_count": 9,
+  "range_correlation_enabled": true,
+  "celestial_router_active": false,
+  "safe_execution": true,
+  "observations": [
+    {
+      "source_id": "reference_0_2417.0Hz",
+      "category": "reference",
+      "frequency_hz": 2417000000.0,
+      "frequency_mhz": 2417.0,
+      "wavelength_m": 0.12403494331816302,
+      "look_direction": {
+        "type": "local_reference"
+      },
+      "lock_error_hz": 0.0,
+      "snr_db": -0.7695809812299781,
+      "information_string": "m..@_...3.=HbLT.]d.|#...z.^4...:.{.I........12!..Hl.,.?.......f<u...m...\\.......:.|..NIn..?.b.-.......x..J...4....w.....Z....",
+      "reference_channel": "reference_0_2417.0Hz",
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566101.2336423
+    },
+    {
+      "source_id": "reference_1_4834.0Hz",
+      "category": "reference",
+      "frequency_hz": 4834000000.0,
+      "frequency_mhz": 4834.0,
+      "wavelength_m": 0.06201747165908151,
+      "look_direction": {
+        "type": "local_reference"
+      },
+      "lock_error_hz": 0.0,
+      "snr_db": -0.4877829562906297,
+      "information_string": "v+....gkJ.p../J..b.3...J..>^Q.4.I..%.g.......g...j..5..-...H...<n..K.J#..n...=.L.\"..K...(.%.Zm.Eqe..........MY.;.- \".=...(...",
+      "reference_channel": "reference_1_4834.0Hz",
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566101.4294255
+    },
+    {
+      "source_id": "reference_2_7251.0Hz",
+      "category": "reference",
+      "frequency_hz": 7251000000.0,
+      "frequency_mhz": 7251.0,
+      "wavelength_m": 0.041344981106054335,
+      "look_direction": {
+        "type": "local_reference"
+      },
+      "lock_error_hz": 0.0,
+      "snr_db": -0.4982372698947118,
+      "information_string": ".f.`|'........3.)....}u.k;....x......}..2.>.9.b..^6f.8o.5.XH......W5.>...}\"q...a.k..1...p..u.m..h_..@..5@.\"....../. x=.B....]",
+      "reference_channel": "reference_2_7251.0Hz",
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566101.6246202
+    },
+    {
+      "source_id": "reference_3_50.0Hz",
+      "category": "reference",
+      "frequency_hz": 50.0,
+      "frequency_mhz": 5e-05,
+      "wavelength_m": 5995849.16,
+      "look_direction": {
+        "type": "local_reference"
+      },
+      "lock_error_hz": 0.0,
+      "snr_db": -0.7207174428287705,
+      "information_string": "0..;...'.az#.Y7.J....x&Fb?..\".6.dL.j..%.r.(......E.P.w.,..`K.... ..TN..v.@.WSJ..W.ZUU....F....d.gh3^8.K....Y9......?z.i.....:",
+      "reference_channel": "reference_3_50.0Hz",
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566101.8102517
+    },
+    {
+      "source_id": "reference_4_60.0Hz",
+      "category": "reference",
+      "frequency_hz": 60.0,
+      "frequency_mhz": 6e-05,
+      "wavelength_m": 4996540.966666667,
+      "look_direction": {
+        "type": "local_reference"
+      },
+      "lock_error_hz": 0.0,
+      "snr_db": -0.6673931376254221,
+      "information_string": "8..ZDD....S1..It...IN$.C.....sP...8..8./ZF..^..D....C..........s.k.3rk.&F.RV.`.t.N@.|Su.y~.L......_....evv'.=...]m...`#..M...",
+      "reference_channel": "reference_4_60.0Hz",
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566101.998518
+    },
+    {
+      "source_id": "reference_5_100.0Hz",
+      "category": "reference",
+      "frequency_hz": 100.0,
+      "frequency_mhz": 0.0001,
+      "wavelength_m": 2997924.58,
+      "look_direction": {
+        "type": "local_reference"
+      },
+      "lock_error_hz": 0.0,
+      "snr_db": -0.5283129220153358,
+      "information_string": ".3...m.....8\".=.G.\\k2_!.y...RQ..v.g./.......z...@...-ll..e.#/<a.`3./.;.N*.i..V....(..,\\.[n...6`.JY[~...v4*&..].......iScZwzl.",
+      "reference_channel": "reference_5_100.0Hz",
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566102.2068708
+    },
+    {
+      "source_id": "reference_6_120.0Hz",
+      "category": "reference",
+      "frequency_hz": 120.0,
+      "frequency_mhz": 0.00012,
+      "wavelength_m": 2498270.4833333334,
+      "look_direction": {
+        "type": "local_reference"
+      },
+      "lock_error_hz": 0.0,
+      "snr_db": -0.3872541301036143,
+      "information_string": "..{...../..>...,X.+...H....WKL:..........Wk6.o...s..u...V!..$..>M..D...;e...........H.g....W.....t.#:......2v..+.l..._....z..",
+      "reference_channel": "reference_6_120.0Hz",
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566102.406751
+    },
+    {
+      "source_id": "reference_7_25000.0Hz",
+      "category": "reference",
+      "frequency_hz": 25000.0,
+      "frequency_mhz": 0.025,
+      "wavelength_m": 11991.69832,
+      "look_direction": {
+        "type": "local_reference"
+      },
+      "lock_error_hz": 0.0,
+      "snr_db": -0.6125653573852197,
+      "information_string": "X.HfM.n`./.....3.Vs.|..%.>....!.L}H9#.....T.N.a.......+!.a.....7.......B[a.,...Aa~..a]#I=e..4...r....HO...._...p..!.i........",
+      "reference_channel": "reference_7_25000.0Hz",
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566102.6072345
+    },
+    {
+      "source_id": "reference_8_40000.0Hz",
+      "category": "reference",
+      "frequency_hz": 40000.0,
+      "frequency_mhz": 0.04,
+      "wavelength_m": 7494.81145,
+      "look_direction": {
+        "type": "local_reference"
+      },
+      "lock_error_hz": 0.0,
+      "snr_db": -0.6151829487564597,
+      "information_string": "..QO.1....BL..\\V*.B...H....<......*3...T3.x.>\\.....+...;..p.<..4.;.\".j...+..z\"..b....iP..\"\\...v............=......G..^..2Z.. ",
+      "reference_channel": "reference_8_40000.0Hz",
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566102.7936115
+    },
+    {
+      "source_id": "reference_9_60000.0Hz",
+      "category": "reference",
+      "frequency_hz": 60000.0,
+      "frequency_mhz": 0.06,
+      "wavelength_m": 4996.5409666666665,
+      "look_direction": {
+        "type": "local_reference"
+      },
+      "lock_error_hz": 0.0,
+      "snr_db": -0.6033723334875846,
+      "information_string": "..H.^Mp.F.P.^J...b.....&.....z....^.j.X..}.)..ww..y.......z..<...=..i....`.D....R.(..u..<..._[.O.#jg.....~........K<qf`...o..",
+      "reference_channel": "reference_9_60000.0Hz",
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566102.9680462
+    },
+    {
+      "source_id": "Hydrogen_Line",
+      "category": "space_band",
+      "frequency_hz": 1420405751.0,
+      "frequency_mhz": 1420.405751,
+      "wavelength_m": 0.21106114065571677,
+      "look_direction": {
+        "name": "Galactic_Center",
+        "ra_hours": 17.761,
+        "dec_deg": -29.008
+      },
+      "lock_error_hz": 817000.0,
+      "snr_db": 1.2130953543184717,
+      "information_string": ".H((V.|'F........B@.....\".S..D......6.......@...... .K..`...`!.........6.... ..DH .H.....B E........@A\".......05.R..@..@.....",
+      "reference_channel": "reference_2417.0Hz",
+      "estimated_range_ly": 79.59140719921962,
+      "reference_snr_db": -0.7695809812299781,
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566103.0169733
+    },
+    {
+      "source_id": "OH_1665",
+      "category": "space_band",
+      "frequency_hz": 1665401000.0,
+      "frequency_mhz": 1665.401,
+      "wavelength_m": 0.1800121760464897,
+      "look_direction": {
+        "name": "Galactic_Center",
+        "ra_hours": 17.761,
+        "dec_deg": -29.008
+      },
+      "lock_error_hz": 1246000.0,
+      "snr_db": 1.2121419639833728,
+      "information_string": "J.H4.R.(.@........ApD..j.H..*....`..H.@...!...@0....4............@G.....0..1.9...E.B..G.P.@..6(.A....Q00.$.\"..-...Dhp.....b. ",
+      "reference_channel": "reference_2417.0Hz",
+      "estimated_range_ly": 79.60014387976703,
+      "reference_snr_db": -0.7695809812299781,
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566103.0663137
+    },
+    {
+      "source_id": "OH_1667",
+      "category": "space_band",
+      "frequency_hz": 1667359000.0,
+      "frequency_mhz": 1667.359,
+      "wavelength_m": 0.179800785553681,
+      "look_direction": {
+        "name": "Galactic_Center",
+        "ra_hours": 17.761,
+        "dec_deg": -29.008
+      },
+      "lock_error_hz": 1246000.0,
+      "snr_db": 1.2121419639833728,
+      "information_string": "J.H4.R.(.@........ApD..j.H..*....`..H.@...!...@0....4............@G.....0..1.9...E.B..G.P.@..6(.A....Q00.$.\"..-...Dhp.....b. ",
+      "reference_channel": "reference_2417.0Hz",
+      "estimated_range_ly": 79.60014387976703,
+      "reference_snr_db": -0.7695809812299781,
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566103.1167023
+    },
+    {
+      "source_id": "Water_Hole_1",
+      "category": "space_band",
+      "frequency_hz": 1420000000.0,
+      "frequency_mhz": 1420.0,
+      "wavelength_m": 0.21112144929577464,
+      "look_direction": {
+        "name": "Galactic_Center",
+        "ra_hours": 17.761,
+        "dec_deg": -29.008
+      },
+      "lock_error_hz": 1246000.0,
+      "snr_db": 1.2121419639833728,
+      "information_string": "J.H4.R.(.@........ApD..j.H..*....`..H.@...!...@0....4............@G.....0..1.9...E.B..G.P.@..6(.A....Q00.$.\"..-...Dhp.....b. ",
+      "reference_channel": "reference_2417.0Hz",
+      "estimated_range_ly": 79.60014387976703,
+      "reference_snr_db": -0.7695809812299781,
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566103.1679296
+    },
+    {
+      "source_id": "Water_Hole_2",
+      "category": "space_band",
+      "frequency_hz": 1721000000.0,
+      "frequency_mhz": 1721.0,
+      "wavelength_m": 0.1741966635676932,
+      "look_direction": {
+        "name": "Galactic_Center",
+        "ra_hours": 17.761,
+        "dec_deg": -29.008
+      },
+      "lock_error_hz": 1246000.0,
+      "snr_db": 1.2121419639833728,
+      "information_string": "J.H4.R.(.@........ApD..j.H..*....`..H.@...!...@0....4............@G.....0..1.9...E.B..G.P.@..6(.A....Q00.$.\"..-...Dhp.....b. ",
+      "reference_channel": "reference_2417.0Hz",
+      "estimated_range_ly": 79.60014387976703,
+      "reference_snr_db": -0.7695809812299781,
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566103.2170706
+    },
+    {
+      "source_id": "X_Band_8GHz",
+      "category": "space_band",
+      "frequency_hz": 8000000000.0,
+      "frequency_mhz": 8000.0,
+      "wavelength_m": 0.03747405725,
+      "look_direction": {
+        "name": "Galactic_Center",
+        "ra_hours": 17.761,
+        "dec_deg": -29.008
+      },
+      "lock_error_hz": 1246000.0,
+      "snr_db": 1.2121419639833728,
+      "information_string": "J.H4.R.(.@........ApD..j.H..*....`..H.@...!...@0....4............@G.....0..1.9...E.B..G.P.@..6(.A....Q00.$.\"..-...Dhp.....b. ",
+      "reference_channel": "reference_7251.0Hz",
+      "estimated_range_ly": 82.12606950594183,
+      "reference_snr_db": -0.4982372698947118,
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566103.2661684
+    },
+    {
+      "source_id": "S_Band_2GHz",
+      "category": "space_band",
+      "frequency_hz": 2050000000.0,
+      "frequency_mhz": 2050.0,
+      "wavelength_m": 0.14624022341463414,
+      "look_direction": {
+        "name": "Galactic_Center",
+        "ra_hours": 17.761,
+        "dec_deg": -29.008
+      },
+      "lock_error_hz": 1246000.0,
+      "snr_db": 1.2121419639833728,
+      "information_string": "J.H4.R.(.@........ApD..j.H..*....`..H.@...!...@0....4............@G.....0..1.9...E.B..G.P.@..6(.A....Q00.$.\"..-...Dhp.....b. ",
+      "reference_channel": "reference_2417.0Hz",
+      "estimated_range_ly": 79.60014387976703,
+      "reference_snr_db": -0.7695809812299781,
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566103.3162012
+    },
+    {
+      "source_id": "UHF_433MHz",
+      "category": "space_band",
+      "frequency_hz": 433920000.0,
+      "frequency_mhz": 433.92,
+      "wavelength_m": 0.6908933858775811,
+      "look_direction": {
+        "name": "Galactic_Center",
+        "ra_hours": 17.761,
+        "dec_deg": -29.008
+      },
+      "lock_error_hz": 1246000.0,
+      "snr_db": 1.2121419639833728,
+      "information_string": "J.H4.R.(.@........ApD..j.H..*....`..H.@...!...@0....4............@G.....0..1.9...E.B..G.P.@..6(.A....Q00.$.\"..-...Dhp.....b. ",
+      "reference_channel": "reference_60000.0Hz",
+      "estimated_range_ly": 81.13799751678002,
+      "reference_snr_db": -0.6033723334875846,
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566103.366116
+    },
+    {
+      "source_id": "VHF_144MHz",
+      "category": "space_band",
+      "frequency_hz": 144000000.0,
+      "frequency_mhz": 144.0,
+      "wavelength_m": 2.0818920694444443,
+      "look_direction": {
+        "name": "Galactic_Center",
+        "ra_hours": 17.761,
+        "dec_deg": -29.008
+      },
+      "lock_error_hz": 1246000.0,
+      "snr_db": 1.2121419639833722,
+      "information_string": "J.H4.R.(.@........ApD..j.H..*....`..H.@...!...@0....4............@G.....0..1.9...E.B..G.P.@..6(.A....Q00.$.\"..-...Dhp.....b. ",
+      "reference_channel": "reference_60000.0Hz",
+      "estimated_range_ly": 81.13799751678002,
+      "reference_snr_db": -0.6033723334875846,
+      "permitted": true,
+      "executed": true,
+      "timestamp": 1783566103.4166524
+    }
+  ]
+}

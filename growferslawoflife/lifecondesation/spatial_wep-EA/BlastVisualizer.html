@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electromagnetic Weapon Blast Visualizer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --neon-blue: #00f3ff;
+      --neon-purple: #bc13fe;
+      --neon-pink: #ff0055;
+      --dark-bg: #050b18;
+      --glass-bg: rgba(10, 25, 47, 0.7);
+      --phi: 1.618033988749;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--dark-bg);
+      color: #e0e6ed;
+      font-family: 'Inter', sans-serif;
+      overflow: hidden;
+      background-image:
+        radial-gradient(circle at 50% 50%, rgba(0, 243, 255, 0.05) 0%, transparent 70%),
+        linear-gradient(rgba(5, 11, 24, 0.8) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(5, 11, 24, 0.8) 1px, transparent 1px);
+      background-size: 100% 100%, 40px 40px, 40px 40px;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+      padding: 2rem;
+      gap: 2rem;
+    }
+
+    /* Sidebar Controls */
+    .controls {
+      flex: 0 0 320px;
+      background: var(--glass-bg);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(0, 243, 255, 0.2);
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      z-index: 10;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.2rem;
+      color: var(--neon-blue);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      border-bottom: 2px solid var(--neon-blue);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+    }
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #8892b0;
+    }
+
+    input[type="range"] {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 2px;
+      outline: none;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 16px;
+      height: 16px;
+      background: var(--neon-blue);
+      border-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0 0 10px var(--neon-blue);
+      transition: 0.2s;
+    }
+
+    .value-display {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1rem;
+      color: var(--neon-purple);
+      text-align: right;
+    }
+
+    /* Visualization Area */
+    .viz-area {
+      flex: 1;
+      position: relative;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    #canvas {
+      width: 100%;
+      height: 100%;
+    }
+
+    .telemetry {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: rgba(10, 25, 47, 0.8);
+      padding: 1rem;
+      border-radius: 8px;
+      border-left: 3px solid var(--neon-pink);
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.9rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      pointer-events: none;
+    }
+
+    .telemetry span {
+      color: var(--neon-pink);
+    }
+
+    .blast-btn {
+      margin-top: auto;
+      background: transparent;
+      border: 1px solid var(--neon-blue);
+      color: var(--neon-blue);
+      padding: 1rem;
+      font-family: 'Orbitron', sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      cursor: pointer;
+      transition: 0.3s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .blast-btn:hover {
+      background: var(--neon-blue);
+      color: var(--dark-bg);
+      box-shadow: 0 0 20px var(--neon-blue);
+    }
+
+    .blast-btn::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transform: rotate(45deg);
+      transition: 0.5s;
+    }
+
+    .blast-btn:active::after {
+      left: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <aside class="controls">
+      <h1>Weapon Systems</h1>
+
+      <div class="control-group">
+        <label>Energy Density (ρ)</label>
+        <input type="range" id="density" min="1" max="10" step="0.1" value="4">
+        <div class="value-display" id="density-val">4.0 mlp</div>
+      </div>
+
+      <div class="control-group">
+        <label>Revolution Rate (ω)</label>
+        <input type="range" id="omega" min="0" max="50" step="1" value="19">
+        <div class="value-display" id="omega-val">19 rad/s</div>
+      </div>
+
+      <div class="control-group">
+        <label>Kinetic Scaling (k_s)</label>
+        <input type="range" id="ks" min="50" max="250" step="1" value="123.5">
+        <div class="value-display" id="ks-val">123.5</div>
+      </div>
+
+      <div class="control-group">
+        <label>Electrode Radius (r)</label>
+        <input type="range" id="radius" min="0.01" max="0.2" step="0.001" value="0.0618">
+        <div class="value-display" id="radius-val">0.0618 m</div>
+      </div>
+
+      <div class="control-group">
+        <label>Mass Equivalent (m)</label>
+        <input type="range" id="mass" min="1" max="2000" step="10" value="1000">
+        <div class="value-display" id="mass-val">1000 kg-eq</div>
+      </div>
+
+      <div class="telemetry">
+        <div>Range: <span id="range-val">0.00</span> m</div>
+        <div>Blast: <span id="blast-val">0.00</span> m</div>
+        <div>Energy: <span id="energy-val">0.00</span> J</div>
+      </div>
+
+      <button class="blast-btn" id="blast-trigger">Fire Weapon</button>
+    </aside>
+
+    <main class="viz-area">
+      <canvas id="canvas"></canvas>
+    </main>
+  </div>
+
+  <script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    const PHI = 1.618033988749;
+
+    // HUD Elements
+    const controls = {
+      density: document.getElementById('density'),
+      omega: document.getElementById('omega'),
+      ks: document.getElementById('ks'),
+      radius: document.getElementById('radius'),
+      mass: document.getElementById('mass'),
+      densityVal: document.getElementById('density-val'),
+      omegaVal: document.getElementById('omega-val'),
+      ksVal: document.getElementById('ks-val'),
+      radiusVal: document.getElementById('radius-val'),
+      massVal: document.getElementById('mass-val'),
+      rangeVal: document.getElementById('range-val'),
+      blastVal: document.getElementById('blast-val'),
+      energyVal: document.getElementById('energy-val'),
+      btn: document.getElementById('blast-trigger')
+    };
+
+    let width, height;
+    let particles = [];
+    let blastWaves = [];
+
+    function resize() {
+      width = canvas.width = canvas.parentElement.clientWidth;
+      height = canvas.height = canvas.parentElement.clientHeight;
+    }
+
+    window.addEventListener('resize', resize);
+    resize();
+
+    function calculatePhysics() {
+      const rho = parseFloat(controls.density.value);
+      const omega = parseFloat(controls.omega.value);
+      const ks = parseFloat(controls.ks.value);
+      const r = parseFloat(controls.radius.value);
+      const m = parseFloat(controls.mass.value);
+
+      // EA Release Formula: E = (ρ^(ω/k_s)) * (π*r/24) * m² * φ
+      const energy = Math.pow(rho, omega / ks) * (Math.PI * r / 24) * Math.pow(m, 2) * PHI;
+
+      // From PhysicsEngine.cs core logic:
+      // Range R = (E * φ) / 1000
+      // Blast Radius r_blast = ρ * φ * 0.5
+      const range = (energy * PHI) / 1000;
+      const blastRadius = range * 0.15; // Visual link: blast radius is percentage of range
+
+      controls.densityVal.innerText = `${rho.toFixed(1)} mlp`;
+      controls.omegaVal.innerText = `${omega} rad/s`;
+      controls.ksVal.innerText = ks;
+      controls.radiusVal.innerText = `${r.toFixed(4)} m`;
+      controls.massVal.innerText = `${m} kg-eq`;
+
+      controls.rangeVal.innerText = range.toFixed(2);
+      controls.blastVal.innerText = blastRadius.toFixed(2);
+      controls.energyVal.innerText = energy.toExponential(2);
+
+      return { range, blastRadius, energy };
+    }
+
+    function createBlast() {
+      const { range, blastRadius } = calculatePhysics();
+
+      // Reset effects
+      blastWaves = [];
+
+      // Create main beam effect
+      // Range 10 = full width? 
+      const visualLength = Math.min(width - width / 2 - 50, range * 10);
+
+      blastWaves.push({
+        type: 'beam',
+        length: visualLength,
+        opacity: 1,
+        width: 4
+      });
+
+      // Create impact blast
+      blastWaves.push({
+        type: 'impact',
+        x: width / 2 + visualLength,
+        y: height / 2,
+        radius: blastRadius * 5,
+        opacity: 1
+      });
+    }
+
+    controls.btn.addEventListener('click', createBlast);
+
+    function draw() {
+      ctx.clearRect(0, 0, width, height);
+
+      // Draw Weapon Origin
+      ctx.beginPath();
+      ctx.arc(width / 2, height / 2, 10, 0, Math.PI * 2);
+      ctx.fillStyle = '#00f3ff';
+      ctx.shadowBlur = 15;
+      ctx.shadowColor = '#00f3ff';
+      ctx.fill();
+
+      const { range, blastRadius } = calculatePhysics();
+      const visualLength = Math.min(width - width / 2 - 50, range * 10);
+
+      // Constant Beam Visualization (Idle)
+      ctx.beginPath();
+      ctx.moveTo(width / 2, height / 2);
+      ctx.lineTo(width / 2 + visualLength, height / 2);
+      ctx.strokeStyle = 'rgba(0, 243, 255, 0.1)';
+      ctx.lineWidth = 1;
+      ctx.stroke();
+
+      // Impact Zone Indicator
+      ctx.beginPath();
+      ctx.arc(width / 2 + visualLength, height / 2, blastRadius * 5, 0, Math.PI * 2);
+      ctx.strokeStyle = 'rgba(188, 19, 254, 0.3)';
+      ctx.setLineDash([5, 5]);
+      ctx.stroke();
+      ctx.setLineDash([]);
+
+      // Draw Active Effects
+      blastWaves.forEach((wave, index) => {
+        if (wave.type === 'beam') {
+          ctx.beginPath();
+          ctx.moveTo(width / 2, height / 2);
+          ctx.lineTo(width / 2 + wave.length, height / 2);
+          ctx.strokeStyle = `rgba(188, 19, 254, ${wave.opacity})`;
+          ctx.lineWidth = wave.width;
+          ctx.shadowBlur = 20;
+          ctx.shadowColor = '#bc13fe';
+          ctx.stroke();
+          wave.opacity -= 0.02;
+        } else if (wave.type === 'impact') {
+          ctx.beginPath();
+          ctx.arc(wave.x, wave.y, wave.radius, 0, Math.PI * 2);
+
+          const grad = ctx.createRadialGradient(wave.x, wave.y, 0, wave.x, wave.y, wave.radius);
+          grad.addColorStop(0, `rgba(0, 243, 255, ${wave.opacity})`);
+          grad.addColorStop(1, 'transparent');
+
+          ctx.fillStyle = grad;
+          ctx.fill();
+
+          ctx.strokeStyle = `rgba(0, 243, 255, ${wave.opacity})`;
+          ctx.lineWidth = 2;
+          ctx.stroke();
+
+          wave.opacity -= 0.015;
+          wave.radius += 2;
+        }
+      });
+
+      blastWaves = blastWaves.filter(w => w.opacity > 0);
+
+      requestAnimationFrame(draw);
+    }
+
+    ['density', 'omega', 'ks', 'radius', 'mass'].forEach(id => {
+      document.getElementById(id).addEventListener('input', calculatePhysics);
+    });
+
+    calculatePhysics();
+    draw();
+  </script>
+</body>
+
+</html>

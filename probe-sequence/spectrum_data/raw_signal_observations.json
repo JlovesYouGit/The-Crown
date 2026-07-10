@@ -1,0 +1,3472 @@
+{
+  "started_at": 1783474692.244998,
+  "finished_at": 1783474694.2622693,
+  "origin": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "frequency_db_source": "E:\\DOWNLOADs\\outsideboundvoice\\ultrasound\\forward",
+  "frequency_db_count": 10,
+  "frequency_db": [
+    {
+      "frequency_hz": 2417000000.0,
+      "frequency_mhz": 2417.0,
+      "label": "2.417 GHz",
+      "source": "ultrasound_frequency_db",
+      "category": "ghz_primary_harmonic",
+      "wavelength_m": 0.12403494331816302,
+      "measurement": {
+        "avg_magnitude": 6060.282608695652,
+        "max_magnitude": 6135,
+        "events_detected": 46
+      }
+    },
+    {
+      "frequency_hz": 4834000000.0,
+      "frequency_mhz": 4834.0,
+      "label": "4.834 GHz",
+      "source": "ultrasound_frequency_db",
+      "category": "ghz_primary_harmonic",
+      "wavelength_m": 0.06201747165908151,
+      "measurement": {
+        "avg_magnitude": 6060.282608695652,
+        "max_magnitude": 6135,
+        "events_detected": 46
+      }
+    },
+    {
+      "frequency_hz": 7251000000.0,
+      "frequency_mhz": 7251.0,
+      "label": "7.251 GHz",
+      "source": "ultrasound_frequency_db",
+      "category": "ghz_primary_harmonic",
+      "wavelength_m": 0.041344981106054335,
+      "measurement": {
+        "avg_magnitude": 6060.282608695652,
+        "max_magnitude": 6135,
+        "events_detected": 46
+      }
+    },
+    {
+      "frequency_hz": 50.0,
+      "frequency_mhz": 5e-05,
+      "label": "50 Hz",
+      "source": "ultrasound_frequency_db",
+      "category": "ac_power_line",
+      "wavelength_m": 5995849.16,
+      "measurement": {
+        "avg_magnitude": 6060.282608695652,
+        "max_magnitude": 6135,
+        "events_detected": 46
+      }
+    },
+    {
+      "frequency_hz": 60.0,
+      "frequency_mhz": 6e-05,
+      "label": "60 Hz",
+      "source": "ultrasound_frequency_db",
+      "category": "ac_power_line",
+      "wavelength_m": 4996540.966666667,
+      "measurement": {
+        "avg_magnitude": 6060.282608695652,
+        "max_magnitude": 6135,
+        "events_detected": 46
+      }
+    },
+    {
+      "frequency_hz": 100.0,
+      "frequency_mhz": 0.0001,
+      "label": "100 Hz",
+      "source": "ultrasound_frequency_db",
+      "category": "ac_power_line",
+      "wavelength_m": 2997924.58,
+      "measurement": {
+        "avg_magnitude": 6060.282608695652,
+        "max_magnitude": 6135,
+        "events_detected": 46
+      }
+    },
+    {
+      "frequency_hz": 120.0,
+      "frequency_mhz": 0.00012,
+      "label": "120 Hz",
+      "source": "ultrasound_frequency_db",
+      "category": "ac_power_line",
+      "wavelength_m": 2498270.4833333334,
+      "measurement": {
+        "avg_magnitude": 6060.282608695652,
+        "max_magnitude": 6135,
+        "events_detected": 46
+      }
+    },
+    {
+      "frequency_hz": 25000.0,
+      "frequency_mhz": 0.025,
+      "label": "25.0 kHz",
+      "source": "ultrasound_frequency_db",
+      "category": "ultrasonic",
+      "wavelength_m": 11991.69832,
+      "measurement": {
+        "avg_magnitude": 6060.282608695652,
+        "max_magnitude": 6135,
+        "events_detected": 46
+      }
+    },
+    {
+      "frequency_hz": 40000.0,
+      "frequency_mhz": 0.04,
+      "label": "40.0 kHz",
+      "source": "ultrasound_frequency_db",
+      "category": "ultrasonic",
+      "wavelength_m": 7494.81145,
+      "measurement": {
+        "avg_magnitude": 6060.282608695652,
+        "max_magnitude": 6135,
+        "events_detected": 46
+      }
+    },
+    {
+      "frequency_hz": 60000.0,
+      "frequency_mhz": 0.06,
+      "label": "60.0 kHz",
+      "source": "ultrasound_frequency_db",
+      "category": "ultrasonic",
+      "wavelength_m": 4996.5409666666665,
+      "measurement": {
+        "avg_magnitude": 6060.282608695652,
+        "max_magnitude": 6135,
+        "events_detected": 46
+      }
+    }
+  ],
+  " measurements": {
+    "monitoring_data": {
+      "connection_type": "ethernet",
+      "total_samples": 55,
+      "fluctuation_events": [
+        {
+          "timestamp": 1764535157.7024045,
+          "bytes": 346944,
+          "fluctuation": 6046,
+          "magnitude": 6046
+        },
+        {
+          "timestamp": 1764535158.2568145,
+          "bytes": 348164,
+          "fluctuation": 6058,
+          "magnitude": 6058
+        },
+        {
+          "timestamp": 1764535158.8072972,
+          "bytes": 349375,
+          "fluctuation": 6058,
+          "magnitude": 6058
+        },
+        {
+          "timestamp": 1764535159.3549438,
+          "bytes": 350579,
+          "fluctuation": 6052,
+          "magnitude": 6052
+        },
+        {
+          "timestamp": 1764535159.9044166,
+          "bytes": 351789,
+          "fluctuation": 6051,
+          "magnitude": 6051
+        },
+        {
+          "timestamp": 1764535160.4525723,
+          "bytes": 352995,
+          "fluctuation": 6047,
+          "magnitude": 6047
+        },
+        {
+          "timestamp": 1764535160.99949,
+          "bytes": 354198,
+          "fluctuation": 6040,
+          "magnitude": 6040
+        },
+        {
+          "timestamp": 1764535161.5484443,
+          "bytes": 355406,
+          "fluctuation": 6039,
+          "magnitude": 6039
+        },
+        {
+          "timestamp": 1764535162.0959017,
+          "bytes": 356610,
+          "fluctuation": 6034,
+          "magnitude": 6034
+        },
+        {
+          "timestamp": 1764535162.645129,
+          "bytes": 357819,
+          "fluctuation": 6034,
+          "magnitude": 6034
+        },
+        {
+          "timestamp": 1764535163.1926093,
+          "bytes": 359023,
+          "fluctuation": 6030,
+          "magnitude": 6030
+        },
+        {
+          "timestamp": 1764535163.739973,
+          "bytes": 360226,
+          "fluctuation": 6026,
+          "magnitude": 6026
+        },
+        {
+          "timestamp": 1764535164.2873929,
+          "bytes": 361431,
+          "fluctuation": 6026,
+          "magnitude": 6026
+        },
+        {
+          "timestamp": 1764535164.8356695,
+          "bytes": 362637,
+          "fluctuation": 6026,
+          "magnitude": 6026
+        },
+        {
+          "timestamp": 1764535165.386709,
+          "bytes": 363850,
+          "fluctuation": 6033,
+          "magnitude": 6033
+        },
+        {
+          "timestamp": 1764535165.9346006,
+          "bytes": 365055,
+          "fluctuation": 6032,
+          "magnitude": 6032
+        },
+        {
+          "timestamp": 1764535166.4805207,
+          "bytes": 366256,
+          "fluctuation": 6027,
+          "magnitude": 6027
+        },
+        {
+          "timestamp": 1764535167.0297158,
+          "bytes": 367464,
+          "fluctuation": 6029,
+          "magnitude": 6029
+        },
+        {
+          "timestamp": 1764535167.5801573,
+          "bytes": 368676,
+          "fluctuation": 6035,
+          "magnitude": 6035
+        },
+        {
+          "timestamp": 1764535168.129417,
+          "bytes": 369884,
+          "fluctuation": 6037,
+          "magnitude": 6037
+        },
+        {
+          "timestamp": 1764535168.6806529,
+          "bytes": 371096,
+          "fluctuation": 6042,
+          "magnitude": 6042
+        },
+        {
+          "timestamp": 1764535169.2340198,
+          "bytes": 372314,
+          "fluctuation": 6053,
+          "magnitude": 6053
+        },
+        {
+          "timestamp": 1764535169.784572,
+          "bytes": 373525,
+          "fluctuation": 6054,
+          "magnitude": 6054
+        },
+        {
+          "timestamp": 1764535170.3327754,
+          "bytes": 374731,
+          "fluctuation": 6051,
+          "magnitude": 6051
+        },
+        {
+          "timestamp": 1764535170.8824296,
+          "bytes": 375940,
+          "fluctuation": 6051,
+          "magnitude": 6051
+        },
+        {
+          "timestamp": 1764535171.4311922,
+          "bytes": 377148,
+          "fluctuation": 6049,
+          "magnitude": 6049
+        },
+        {
+          "timestamp": 1764535171.9812753,
+          "bytes": 378358,
+          "fluctuation": 6049,
+          "magnitude": 6049
+        },
+        {
+          "timestamp": 1764535172.5310364,
+          "bytes": 379568,
+          "fluctuation": 6048,
+          "magnitude": 6048
+        },
+        {
+          "timestamp": 1764535173.0874104,
+          "bytes": 380791,
+          "fluctuation": 6061,
+          "magnitude": 6061
+        },
+        {
+          "timestamp": 1764535173.6359746,
+          "bytes": 381998,
+          "fluctuation": 6056,
+          "magnitude": 6056
+        },
+        {
+          "timestamp": 1764535174.1854987,
+          "bytes": 383207,
+          "fluctuation": 6054,
+          "magnitude": 6054
+        },
+        {
+          "timestamp": 1764535174.7705903,
+          "bytes": 384494,
+          "fluctuation": 6131,
+          "magnitude": 6131
+        },
+        {
+          "timestamp": 1764535175.3260798,
+          "bytes": 385717,
+          "fluctuation": 6135,
+          "magnitude": 6135
+        },
+        {
+          "timestamp": 1764535175.8771923,
+          "bytes": 386929,
+          "fluctuation": 6126,
+          "magnitude": 6126
+        },
+        {
+          "timestamp": 1764535176.4277465,
+          "bytes": 388140,
+          "fluctuation": 6116,
+          "magnitude": 6116
+        },
+        {
+          "timestamp": 1764535176.978575,
+          "bytes": 389352,
+          "fluctuation": 6107,
+          "magnitude": 6107
+        },
+        {
+          "timestamp": 1764535177.5289204,
+          "bytes": 390562,
+          "fluctuation": 6095,
+          "magnitude": 6095
+        },
+        {
+          "timestamp": 1764535178.0798035,
+          "bytes": 391774,
+          "fluctuation": 6086,
+          "magnitude": 6086
+        },
+        {
+          "timestamp": 1764535178.6416526,
+          "bytes": 393010,
+          "fluctuation": 6101,
+          "magnitude": 6101
+        },
+        {
+          "timestamp": 1764535179.195554,
+          "bytes": 394229,
+          "fluctuation": 6097,
+          "magnitude": 6097
+        },
+        {
+          "timestamp": 1764535179.7460396,
+          "bytes": 395441,
+          "fluctuation": 6084,
+          "magnitude": 6084
+        },
+        {
+          "timestamp": 1764535180.2996316,
+          "bytes": 396658,
+          "fluctuation": 6085,
+          "magnitude": 6085
+        },
+        {
+          "timestamp": 1764535180.8487952,
+          "bytes": 397866,
+          "fluctuation": 6077,
+          "magnitude": 6077
+        },
+        {
+          "timestamp": 1764535181.4015374,
+          "bytes": 399082,
+          "fluctuation": 6078,
+          "magnitude": 6078
+        },
+        {
+          "timestamp": 1764535181.9502277,
+          "bytes": 400290,
+          "fluctuation": 6070,
+          "magnitude": 6070
+        },
+        {
+          "timestamp": 1764535182.4976873,
+          "bytes": 401492,
+          "fluctuation": 6057,
+          "magnitude": 6057
+        }
+      ],
+      "bytes_history": [
+        336065,
+        337271,
+        338479,
+        339687,
+        340896,
+        342105,
+        343314,
+        344524,
+        345734,
+        346944,
+        348164,
+        349375,
+        350579,
+        351789,
+        352995,
+        354198,
+        355406,
+        356610,
+        357819,
+        359023,
+        360226,
+        361431,
+        362637,
+        363850,
+        365055,
+        366256,
+        367464,
+        368676,
+        369884,
+        371096,
+        372314,
+        373525,
+        374731,
+        375940,
+        377148,
+        378358,
+        379568,
+        380791,
+        381998,
+        383207,
+        384494,
+        385717,
+        386929,
+        388140,
+        389352,
+        390562,
+        391774,
+        393010,
+        394229,
+        395441,
+        396658,
+        397866,
+        399082,
+        400290,
+        401492
+      ]
+    },
+    "analysis": {
+      "acoustic_activity": false,
+      "events_detected": 46,
+      "avg_magnitude": 6060.282608695652,
+      "max_magnitude": 6135,
+      "avg_interval_sec": 0.551006285349528,
+      "acoustic_likelihood": 0.5,
+      "pattern_description": "Possible acoustic activity (46 events)",
+      "recommendations": [
+        "Continue monitoring for confirmation",
+        "Check for environmental factors (HVAC, machinery)",
+        "Compare with baseline measurements in quiet conditions"
+      ]
+    }
+  },
+  "num_sources": 10,
+  "observations": [
+    {
+      "source_id": "ultrasound_db_0_2p417_GHz",
+      "frequency_hz": 2417000000.0,
+      "frequency_mhz": 2417.0,
+      "wavelength_m": 0.12403494331816302,
+      "lock_error_hz": 0.0,
+      "snr_db": -0.45839932902537994,
+      "symbol_count": 1000,
+      "symbol_preview": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "information_string": ".(..z.......1..(...T....H...|).3v......~.G\\..+T.l../.C\\q[.,*....=...f}...E..%..)Gn..B..)...{.>..{m.l.wl[.......5.t...\\. .....",
+      "tune_ack": {
+        "executed": true,
+        "permitted": true,
+        "tier": 2,
+        "enforceResult": {
+          "pattern": {
+            "id": "pattern_ward",
+            "vertices2D": [
+              [
+                -0.5,
+                -0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                -0.5,
+                0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                0.5,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "origin3D": [
+              0,
+              3.5,
+              0
+            ],
+            "normal3D": [
+              0,
+              1,
+              0
+            ],
+            "engraveHz": 416.7645833333334,
+            "fluctuationAtEngrave": 0,
+            "timestamp": 1783474692406
+          },
+          "realityTear": 0.30172628733437473
+        },
+        "zoneMap3D": {
+          "origin": [
+            0,
+            3.5,
+            0
+          ],
+          "magicType": {
+            "id": "pattern_ward",
+            "zoningRange": 10,
+            "lidarResolution": 6,
+            "fieldOfRotation": {
+              "degrees": 360,
+              "omnidirectional": true
+            },
+            "gravityStrength": 0.35,
+            "allAxisCasting": true,
+            "castAxes": [
+              "x",
+              "y",
+              "z",
+              "t",
+              "psi"
+            ]
+          },
+          "points": [],
+          "radius": 10,
+          "allAxisCasting": true
+        },
+        "waveState": {
+          "bands": [
+            {
+              "hz": 416.7645833333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9860416586821028,
+              "amplitude": 0.8006439730526216,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 1250.09375,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9700600775155608,
+              "amplitude": 0.6500519246509462,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 2083.422916666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.803549221153131,
+              "amplitude": 0.4915577741712548,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 2916.7520833333338,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5648218383135948,
+              "amplitude": 0.3501844237389455,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 3750.08125,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.36615500610645535,
+              "amplitude": 0.24825129481535912,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 4583.4104166666675,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3009849271665182,
+              "amplitude": 0.20185157831423647,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 5416.739583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3999621119336886,
+              "amplitude": 0.21831077268024038,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 6250.068750000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6165360377698932,
+              "amplitude": 0.2950303318053219,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 7083.397916666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8488485213168253,
+              "amplitude": 0.4198977482082213,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 7916.727083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9876395090420789,
+              "amplitude": 0.5731994868771225,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 8750.056250000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9676333391582939,
+              "amplitude": 0.730732439268915,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 9583.385416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.798239227195969,
+              "amplitude": 0.8676256043355359,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 10416.714583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5591258812741294,
+              "amplitude": 0.9622665511528392,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 11250.043750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3627521065963499,
+              "amplitude": 0.9997135409373858,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 12083.372916666669,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.30147544162147244,
+              "amplitude": 0.9740546026924923,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 12916.702083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.40411534371090185,
+              "amplitude": 0.8893406396140628,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 13750.031250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6223986568133416,
+              "amplitude": 0.7589461300732587,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 14583.360416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8536633145951054,
+              "amplitude": 0.603457509696483,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 15416.689583333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9891419000592585,
+              "amplitude": 0.44742320061947916,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 16250.018750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9651167977152082,
+              "amplitude": 0.31547723391011984,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 17083.347916666666,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.7928873222099557,
+              "amplitude": 0.22845117701124706,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 17916.677083333336,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5534556976147399,
+              "amplitude": 0.20008453724166964,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 18750.006250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3594303729090792,
+              "amplitude": 0.23485578540211588,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 19583.33541666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.302064492901651,
+              "amplitude": 0.32727516384799765,
+              "dimensionAxis": "t"
+            }
+          ],
+          "fluctuation": 0,
+          "timestamp": 1783474692406
+        }
+      },
+      "timestamp": 1783474692.4756403
+    },
+    {
+      "source_id": "ultrasound_db_1_4p834_GHz",
+      "frequency_hz": 4834000000.0,
+      "frequency_mhz": 4834.0,
+      "wavelength_m": 0.06201747165908151,
+      "lock_error_hz": 0.0,
+      "snr_db": -0.40774080645033156,
+      "symbol_count": 1000,
+      "symbol_preview": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "information_string": ".Tf........Mbu...eE..}\\...................%A..<..{:.....#.....q<..;WM..#C._+..;......m8.....k.{.B.W.!X?...~Q.....r.W.....?..;",
+      "tune_ack": {
+        "executed": true,
+        "permitted": true,
+        "tier": 2,
+        "enforceResult": {
+          "pattern": {
+            "id": "pattern_ward",
+            "vertices2D": [
+              [
+                -0.5,
+                -0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                -0.5,
+                0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                0.5,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "origin3D": [
+              0,
+              3.5,
+              0
+            ],
+            "normal3D": [
+              0,
+              1,
+              0
+            ],
+            "engraveHz": 7916.727083333335,
+            "fluctuationAtEngrave": 0,
+            "timestamp": 1783474692613
+          },
+          "realityTear": 0.27868488072332487
+        },
+        "zoneMap3D": {
+          "origin": [
+            0,
+            3.5,
+            0
+          ],
+          "magicType": {
+            "id": "pattern_ward",
+            "zoningRange": 10,
+            "lidarResolution": 6,
+            "fieldOfRotation": {
+              "degrees": 360,
+              "omnidirectional": true
+            },
+            "gravityStrength": 0.35,
+            "allAxisCasting": true,
+            "castAxes": [
+              "x",
+              "y",
+              "z",
+              "t",
+              "psi"
+            ]
+          },
+          "points": [],
+          "radius": 10,
+          "allAxisCasting": true
+        },
+        "waveState": {
+          "bands": [
+            {
+              "hz": 416.7645833333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9884318829078163,
+              "amplitude": 0.5291415906261361,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 1250.09375,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.851356681811521,
+              "amplitude": 0.3814312401017402,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 2083.422916666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6195802746034962,
+              "amplitude": 0.2682281071084651,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 2916.7520833333338,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.40211080034929864,
+              "amplitude": 0.20740452217255767,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 3750.08125,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.30122742216535103,
+              "amplitude": 0.20856305340761844,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 4583.4104166666675,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.36437725848657265,
+              "amplitude": 0.2715209006660146,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 5416.739583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5618599506679205,
+              "amplitude": 0.3863383995069182,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 6250.068750000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8007962906915009,
+              "amplitude": 0.534888382943032,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 7083.397916666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.968810735246769,
+              "amplitude": 0.6937178784481717,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 7916.727083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9868835651776613,
+              "amplitude": 0.8377515628455783,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 8750.056250000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8465147697573427,
+              "amplitude": 0.944249485493249,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 9583.385416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6137219954188119,
+              "amplitude": 0.9963979581718505,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 10416.714583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3979913357230978,
+              "amplitude": 0.9859638798129875,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 11250.043750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3007843096468365,
+              "amplitude": 0.91459468053921,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 12083.372916666669,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.36781884293667727,
+              "amplitude": 0.7935578250677284,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 12916.702083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5675676009320776,
+              "amplitude": 0.6419624305919915,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 13750.031250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8060856093153188,
+              "amplitude": 0.4837420878791577,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 14583.360416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9711941071431514,
+              "amplitude": 0.3438763218456958,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 15416.689583333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.985240001829415,
+              "amplitude": 0.2444469593499263,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 16250.018750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8416172979411447,
+              "amplitude": 0.20115148397266092,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 17083.347916666666,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6078739729558161,
+              "amplitude": 0.22082544901737836,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 17916.677083333336,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.39394317931481004,
+              "amplitude": 0.3003627665334779,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 18750.006250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.30043992517170065,
+              "amplitude": 0.4272062370444769,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 19583.33541666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3713402072320946,
+              "amplitude": 0.5813298656432815,
+              "dimensionAxis": "t"
+            }
+          ],
+          "fluctuation": 0,
+          "timestamp": 1783474692613
+        }
+      },
+      "timestamp": 1783474692.679502
+    },
+    {
+      "source_id": "ultrasound_db_2_7p251_GHz",
+      "frequency_hz": 7251000000.0,
+      "frequency_mhz": 7251.0,
+      "wavelength_m": 0.041344981106054335,
+      "lock_error_hz": 0.0,
+      "snr_db": -0.6185394523125765,
+      "symbol_count": 1000,
+      "symbol_preview": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "information_string": "la...h.t}`.........C...L.8.t.fj..`.$..Kv...z....S.'......K;.l.....\\....T...v8...o.Vc.\\...FM6.\".......bf[..!.u.\".2......YD..g.",
+      "tune_ack": {
+        "executed": true,
+        "permitted": true,
+        "tier": 2,
+        "enforceResult": {
+          "pattern": {
+            "id": "pattern_ward",
+            "vertices2D": [
+              [
+                -0.5,
+                -0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                -0.5,
+                0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                0.5,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "origin3D": [
+              0,
+              3.5,
+              0
+            ],
+            "normal3D": [
+              0,
+              1,
+              0
+            ],
+            "engraveHz": 7916.727083333335,
+            "fluctuationAtEngrave": 0,
+            "timestamp": 1783474692810
+          },
+          "realityTear": 0.2767353904078774
+        },
+        "zoneMap3D": {
+          "origin": [
+            0,
+            3.5,
+            0
+          ],
+          "magicType": {
+            "id": "pattern_ward",
+            "zoningRange": 10,
+            "lidarResolution": 6,
+            "fieldOfRotation": {
+              "degrees": 360,
+              "omnidirectional": true
+            },
+            "gravityStrength": 0.35,
+            "allAxisCasting": true,
+            "castAxes": [
+              "x",
+              "y",
+              "z",
+              "t",
+              "psi"
+            ]
+          },
+          "points": [],
+          "radius": 10,
+          "allAxisCasting": true
+        },
+        "waveState": {
+          "bands": [
+            {
+              "hz": 416.7645833333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9504665187517609,
+              "amplitude": 0.39332469979659485,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 1250.09375,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.7641730586856267,
+              "amplitude": 0.2762755368575612,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 2083.422916666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5241822181018945,
+              "amplitude": 0.21033537263820415,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 2916.7520833333338,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.34336549426405016,
+              "amplitude": 0.20591468139470873,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 3750.08125,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.30676371074060443,
+              "amplitude": 0.26371138300173536,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 4583.4104166666675,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.43159133835835595,
+              "amplitude": 0.3746006878947968,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 5416.739583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6591399856941076,
+              "amplitude": 0.5210756048295779,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 6250.068750000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8823899543801677,
+              "amplitude": 0.6800109542338741,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 7083.397916666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.996343270019707,
+              "amplitude": 0.8263141700322125,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 7916.727083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9474059751254778,
+              "amplitude": 0.9368875246502852,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 8750.056250000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.7585939847613399,
+              "amplitude": 0.9942737215883699,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 9583.385416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5187085398643946,
+              "amplitude": 0.9894127378955744,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 10416.714583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.34057152822108316,
+              "amplitude": 0.9230720163747062,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 11250.043750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3079635631197165,
+              "amplitude": 0.8057254667558966,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 12083.372916666669,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.43622066076640764,
+              "amplitude": 0.6558992616874374,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 12916.702083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6650215351830209,
+              "amplitude": 0.4972477881598655,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 13750.031250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8867575459622137,
+              "amplitude": 0.35481863719761264,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 14583.360416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9971427688909085,
+              "amplitude": 0.2510982505836449,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 15416.689583333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9442613472076085,
+              "amplitude": 0.20246182559248616,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 16250.018750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.7529842085343326,
+              "amplitude": 0.21658787351661887,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 17083.347916666666,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5132719810876322,
+              "amplitude": 0.2912462942226178,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 17916.677083333336,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3378650857698592,
+              "amplitude": 0.41465015912548725,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 18750.006250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3092601370338474,
+              "amplitude": 0.5673167021960539,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 19583.33541666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.4409104240727555,
+              "amplitude": 0.7251430406169295,
+              "dimensionAxis": "t"
+            }
+          ],
+          "fluctuation": 0,
+          "timestamp": 1783474692810
+        }
+      },
+      "timestamp": 1783474692.876412
+    },
+    {
+      "source_id": "ultrasound_db_3_50_Hz",
+      "frequency_hz": 50.0,
+      "frequency_mhz": 5e-05,
+      "wavelength_m": 5995849.16,
+      "lock_error_hz": 0.0,
+      "snr_db": -0.5577367938572073,
+      "symbol_count": 1000,
+      "symbol_preview": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "information_string": "..+...+{..<.^W0$,#.5....`A.*{.....(%.\\.......#...y...., wX7C.....v.....d..tO.L.?!KHi........qRx+...i./&4....cR.:...r.f.P..o..",
+      "tune_ack": {
+        "executed": true,
+        "permitted": true,
+        "tier": 2,
+        "enforceResult": {
+          "pattern": {
+            "id": "pattern_ward",
+            "vertices2D": [
+              [
+                -0.5,
+                -0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                -0.5,
+                0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                0.5,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "origin3D": [
+              0,
+              3.5,
+              0
+            ],
+            "normal3D": [
+              0,
+              1,
+              0
+            ],
+            "engraveHz": 7083.397916666668,
+            "fluctuationAtEngrave": 0,
+            "timestamp": 1783474693001
+          },
+          "realityTear": 0.2814136072223852
+        },
+        "zoneMap3D": {
+          "origin": [
+            0,
+            3.5,
+            0
+          ],
+          "magicType": {
+            "id": "pattern_ward",
+            "zoningRange": 10,
+            "lidarResolution": 6,
+            "fieldOfRotation": {
+              "degrees": 360,
+              "omnidirectional": true
+            },
+            "gravityStrength": 0.35,
+            "allAxisCasting": true,
+            "castAxes": [
+              "x",
+              "y",
+              "z",
+              "t",
+              "psi"
+            ]
+          },
+          "points": [],
+          "radius": 10,
+          "allAxisCasting": true
+        },
+        "waveState": {
+          "bands": [
+            {
+              "hz": 416.7645833333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8961863367977236,
+              "amplitude": 0.2940739578960974,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 1250.09375,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6780241687188535,
+              "amplitude": 0.21787036259373754,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 2083.422916666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.4466817944800596,
+              "amplitude": 0.2019966631520863,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 2916.7520833333338,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.31096318244512217,
+              "amplitude": 0.24895887742487913,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 3750.08125,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.33469883620936564,
+              "amplitude": 0.35134281136559276,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 4583.4104166666675,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5067255733922107,
+              "amplitude": 0.49298426638515835,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 5416.739583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.7461365209357758,
+              "amplitude": 0.6515211606286037,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 6250.068750000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9403329546022923,
+              "amplitude": 0.8019239926296013,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 7083.397916666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9979812542540889,
+              "amplitude": 0.9204473369463428,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 7916.727083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8919685578966658,
+              "amplitude": 0.9883792336038852,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 8750.056250000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6721542530315137,
+              "amplitude": 0.9949945601130787,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 9583.385416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.44192045543478836,
+              "amplitude": 0.9392489013846013,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 10416.714583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.30954973176351674,
+              "amplitude": 0.8299432753363596,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 11250.043750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3372980723587167,
+              "amplitude": 0.6843348314747673,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 12083.372916666669,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5121150154777481,
+              "amplitude": 0.5254116097446864,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 12916.702083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.7517814298012025,
+              "amplitude": 0.3782642603260662,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 13750.031250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9435784410572554,
+              "amplitude": 0.26612412514480577,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 14583.360416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9973009061577078,
+              "amplitude": 0.20669567413736956,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 15416.689583333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8876823682827157,
+              "amplitude": 0.20936131639573557,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 16250.018750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6662780737690355,
+              "amplitude": 0.2737002116918998,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 17083.347916666666,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.4372179458097765,
+              "amplitude": 0.3895546931164178,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 17916.677083333336,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.30823255582026404,
+              "amplitude": 0.5386338768561961,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 18750.006250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.33998575608940546,
+              "amplitude": 0.6974014266797207,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 19583.33541666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5175434411823571,
+              "amplitude": 0.8407912733549423,
+              "dimensionAxis": "t"
+            }
+          ],
+          "fluctuation": 0,
+          "timestamp": 1783474693001
+        }
+      },
+      "timestamp": 1783474693.0626862
+    },
+    {
+      "source_id": "ultrasound_db_4_60_Hz",
+      "frequency_hz": 60.0,
+      "frequency_mhz": 6e-05,
+      "wavelength_m": 4996540.966666667,
+      "lock_error_hz": 0.0,
+      "snr_db": -0.679157554702135,
+      "symbol_count": 1000,
+      "symbol_preview": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "information_string": ".4.y.t9m>._..p..MZ...C..$.-.6......4tj...L......]..k....B..B..a.N.b.......X^.R..x9.#.U....Kf.$..B....2d./n......G7..5.X..T|h.",
+      "tune_ack": {
+        "executed": true,
+        "permitted": true,
+        "tier": 2,
+        "enforceResult": {
+          "pattern": {
+            "id": "pattern_ward",
+            "vertices2D": [
+              [
+                -0.5,
+                -0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                -0.5,
+                0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                0.5,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "origin3D": [
+              0,
+              3.5,
+              0
+            ],
+            "normal3D": [
+              0,
+              1,
+              0
+            ],
+            "engraveHz": 7916.727083333335,
+            "fluctuationAtEngrave": 0,
+            "timestamp": 1783474693200
+          },
+          "realityTear": 0.2765125356889531
+        },
+        "zoneMap3D": {
+          "origin": [
+            0,
+            3.5,
+            0
+          ],
+          "magicType": {
+            "id": "pattern_ward",
+            "zoningRange": 10,
+            "lidarResolution": 6,
+            "fieldOfRotation": {
+              "degrees": 360,
+              "omnidirectional": true
+            },
+            "gravityStrength": 0.35,
+            "allAxisCasting": true,
+            "castAxes": [
+              "x",
+              "y",
+              "z",
+              "t",
+              "psi"
+            ]
+          },
+          "points": [],
+          "radius": 10,
+          "allAxisCasting": true
+        },
+        "waveState": {
+          "bands": [
+            {
+              "hz": 416.7645833333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9635950818963643,
+              "amplitude": 0.42922064641359586,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 1250.09375,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.7897207245871021,
+              "amplitude": 0.30184510961787636,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 2083.422916666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5501335187239048,
+              "amplitude": 0.22154169632769616,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 2916.7520833333338,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3575151314285426,
+              "amplitude": 0.2009885423529869,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 3750.08125,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.30245688601647297,
+              "amplitude": 0.24343049196261957,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 4583.4104166666675,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.4108536189739524,
+              "amplitude": 0.3421669531233909,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 5416.739583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6317246463857922,
+              "amplitude": 0.48160960230217675,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 6250.068750000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8611908592854611,
+              "amplitude": 0.6397435009022265,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 7083.397916666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9913306796823553,
+              "amplitude": 0.7916026042089612,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 7916.727083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9609373935585004,
+              "amplitude": 0.9132120448299075,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 8750.056250000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.7843053736101058,
+              "amplitude": 0.9853721672164282,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 9583.385416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5445074296221558,
+              "amplitude": 0.9966904693411383,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 10416.714583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.35432429633097584,
+              "amplitude": 0.9453800393247638,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 11250.043750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3032020734393487,
+              "amplitude": 0.8395418224155065,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 12083.372916666669,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.41518431093027136,
+              "amplitude": 0.695885104788525,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 12916.702083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6376040505135027,
+              "amplitude": 0.5370902303157432,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 13750.031250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.865853799593862,
+              "amplitude": 0.38822742988839165,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 14583.360416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9925841206550778,
+              "amplitude": 0.27279887755471743,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 15416.689583333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9581917952502534,
+              "amplitude": 0.20902825255313823,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 16250.018750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.7788520510617871,
+              "amplitude": 0.20698338911062075,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 17083.347916666666,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5389111659737927,
+              "amplitude": 0.2669872360675975,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 17916.677083333336,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.351217102164245,
+              "amplitude": 0.3795665008976694,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 18750.006250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.30404532217485464,
+              "amplitude": 0.5269473847157933,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 19583.33541666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.41958139130013977,
+              "amplitude": 0.6858614893431334,
+              "dimensionAxis": "t"
+            }
+          ],
+          "fluctuation": 0,
+          "timestamp": 1783474693200
+        }
+      },
+      "timestamp": 1783474693.2634735
+    },
+    {
+      "source_id": "ultrasound_db_5_100_Hz",
+      "frequency_hz": 100.0,
+      "frequency_mhz": 0.0001,
+      "wavelength_m": 2997924.58,
+      "lock_error_hz": 0.0,
+      "snr_db": -0.629201081728359,
+      "symbol_count": 1000,
+      "symbol_preview": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "information_string": "Ia...q]%M.../7;...a5A.n.Y.D90y.2_.w.)q.....f.k....._zC..j...`..7.\"m.9.ey....;..: ....}.....b`k..EU.I~(..B.P..(...4.<36T9wA...",
+      "tune_ack": {
+        "executed": true,
+        "permitted": true,
+        "tier": 2,
+        "enforceResult": {
+          "pattern": {
+            "id": "pattern_ward",
+            "vertices2D": [
+              [
+                -0.5,
+                -0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                -0.5,
+                0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                0.5,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "origin3D": [
+              0,
+              3.5,
+              0
+            ],
+            "normal3D": [
+              0,
+              1,
+              0
+            ],
+            "engraveHz": 7083.397916666668,
+            "fluctuationAtEngrave": 0,
+            "timestamp": 1783474693404
+          },
+          "realityTear": 0.29540491848943407
+        },
+        "zoneMap3D": {
+          "origin": [
+            0,
+            3.5,
+            0
+          ],
+          "magicType": {
+            "id": "pattern_ward",
+            "zoningRange": 10,
+            "lidarResolution": 6,
+            "fieldOfRotation": {
+              "degrees": 360,
+              "omnidirectional": true
+            },
+            "gravityStrength": 0.35,
+            "allAxisCasting": true,
+            "castAxes": [
+              "x",
+              "y",
+              "z",
+              "t",
+              "psi"
+            ]
+          },
+          "points": [],
+          "radius": 10,
+          "allAxisCasting": true
+        },
+        "waveState": {
+          "bands": [
+            {
+              "hz": 416.7645833333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8031964592492975,
+              "amplitude": 0.21500790416646265,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 1250.09375,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5644411613011193,
+              "amplitude": 0.2031310581801909,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 2083.422916666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3659255273432689,
+              "amplitude": 0.25391112122838794,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 2916.7520833333338,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.30101456776560387,
+              "amplitude": 0.35933088178823924,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 3750.08125,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.4002368827105387,
+              "amplitude": 0.5027471177878768,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 4583.4104166666675,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6169267097178621,
+              "amplitude": 0.6615174527153955,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 5416.739583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8491714239612274,
+              "amplitude": 0.8105755299360091,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 6250.068750000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9877426931397086,
+              "amplitude": 0.9263883454750572,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 7083.397916666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9674683107418833,
+              "amplitude": 0.9906715526979666,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 7916.727083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.7978836236087893,
+              "amplitude": 0.9932763930833657,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 8750.056250000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5587469484615379,
+              "amplitude": 0.9337915091536368,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 9583.385416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3625280149274369,
+              "amplitude": 0.8216082605455926,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 10416.714583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.30151166550816394,
+              "amplitude": 0.6744379238610105,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 11250.043750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.40439478704009757,
+              "amplitude": 0.5155156566433228,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 12083.372916666669,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6227899007509694,
+              "amplitude": 0.3699314284714972,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 12916.702083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8539823509799067,
+              "amplitude": 0.2606699860834395,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 13750.031250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9892387016986959,
+              "amplitude": 0.2049813169064644,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 14583.360416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9649457694157146,
+              "amplitude": 0.21165744145714982,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 15416.689583333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.792528977477678,
+              "amplitude": 0.2796442317533211,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 16250.018750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5530785351984124,
+              "amplitude": 0.3982082233776473,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 17083.347916666666,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.359211778209598,
+              "amplitude": 0.5486307145201121,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 17916.677083333336,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.30210728348538035,
+              "amplitude": 0.7071632901471936,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 18750.006250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.4086221906852534,
+              "amplitude": 0.8487771306074507,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 19583.33541666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6286607847765204,
+              "amplitude": 0.9511144224076471,
+              "dimensionAxis": "t"
+            }
+          ],
+          "fluctuation": 0,
+          "timestamp": 1783474693404
+        }
+      },
+      "timestamp": 1783474693.4683206
+    },
+    {
+      "source_id": "ultrasound_db_6_120_Hz",
+      "frequency_hz": 120.0,
+      "frequency_mhz": 0.00012,
+      "wavelength_m": 2498270.4833333334,
+      "lock_error_hz": 0.0,
+      "snr_db": -0.4318114464740488,
+      "symbol_count": 1000,
+      "symbol_preview": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "information_string": ".p.......\\~......P..........#.3.[m>....V.6k.{.....-...%..Z.......H..../.%.Oj........-X..lkw.......'(....'.....;......:.%.BO.x",
+      "tune_ack": {
+        "executed": true,
+        "permitted": true,
+        "tier": 2,
+        "enforceResult": {
+          "pattern": {
+            "id": "pattern_ward",
+            "vertices2D": [
+              [
+                -0.5,
+                -0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                -0.5,
+                0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                0.5,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "origin3D": [
+              0,
+              3.5,
+              0
+            ],
+            "normal3D": [
+              0,
+              1,
+              0
+            ],
+            "engraveHz": 6250.068750000001,
+            "fluctuationAtEngrave": 0,
+            "timestamp": 1783474693597
+          },
+          "realityTear": 0.33167313677687016
+        },
+        "zoneMap3D": {
+          "origin": [
+            0,
+            3.5,
+            0
+          ],
+          "magicType": {
+            "id": "pattern_ward",
+            "zoningRange": 10,
+            "lidarResolution": 6,
+            "fieldOfRotation": {
+              "degrees": 360,
+              "omnidirectional": true
+            },
+            "gravityStrength": 0.35,
+            "allAxisCasting": true,
+            "castAxes": [
+              "x",
+              "y",
+              "z",
+              "t",
+              "psi"
+            ]
+          },
+          "points": [],
+          "radius": 10,
+          "allAxisCasting": true
+        },
+        "waveState": {
+          "bands": [
+            {
+              "hz": 416.7645833333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6071524848563736,
+              "amplitude": 0.24404674801051207,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 1250.09375,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.39344819706814194,
+              "amplitude": 0.34320465244848497,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 2083.422916666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3004042466931363,
+              "amplitude": 0.482904914920903,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 2916.7520833333338,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3717806125319207,
+              "amplitude": 0.6410917356114727,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 3750.08125,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.574007916678384,
+              "amplitude": 0.7927912541014803,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 4583.4104166666675,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8119754896888145,
+              "amplitude": 0.9140532583443739,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 5416.739583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9737634490104032,
+              "amplitude": 0.9857331351730334,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 6250.068750000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9832803794277782,
+              "amplitude": 0.9965142028096887,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 7083.397916666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8360503899550715,
+              "amplitude": 0.944694463698563,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 7916.727083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6013179580553887,
+              "amplitude": 0.8384549971852411,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 8750.056250000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3894814541510425,
+              "amplitude": 0.6945687120548207,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 9583.385416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.30017090907960836,
+              "amplitude": 0.5357520996441769,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 10416.714583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3753904731909501,
+              "amplitude": 0.3870788227885691,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 11250.043750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5797631237751049,
+              "amplitude": 0.2720212431015859,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 12083.372916666669,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8171693307816206,
+              "amplitude": 0.20874416042352803,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 12916.702083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9759531791582456,
+              "amplitude": 0.20723780093972366,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 13750.031250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9814361341921183,
+              "amplitude": 0.2677399858027103,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 14583.360416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8310394761204138,
+              "amplitude": 0.3806987458511723,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 15416.689583333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5954971949153662,
+              "amplitude": 0.5282801805773158,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 16250.018750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.38558836650385975,
+              "amplitude": 0.687184762655449,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 17083.347916666666,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.300036477116089,
+              "amplitude": 0.8323247812536454,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 17916.677083333336,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3790779223723537,
+              "amplitude": 0.9407858079944447,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 18750.006250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5855382706558819,
+              "amplitude": 0.995444223541142,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 19583.33541666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8223159088201191,
+              "amplitude": 0.9876707088393788,
+              "dimensionAxis": "t"
+            }
+          ],
+          "fluctuation": 0,
+          "timestamp": 1783474693597
+        }
+      },
+      "timestamp": 1783474693.6664026
+    },
+    {
+      "source_id": "ultrasound_db_7_25p0_kHz",
+      "frequency_hz": 25000.0,
+      "frequency_mhz": 0.025,
+      "wavelength_m": 11991.69832,
+      "lock_error_hz": 0.0,
+      "snr_db": -0.4657994412323579,
+      "symbol_count": 1000,
+      "symbol_preview": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "information_string": "b.\".^.x...`...W.....c.J7.11W._.2.....~.....X..b'......b..@....n..0...A.#..(J]....\\.I].......m......U.n.DC.h......,5..p.H,....",
+      "tune_ack": {
+        "executed": true,
+        "permitted": true,
+        "tier": 2,
+        "enforceResult": {
+          "pattern": {
+            "id": "pattern_ward",
+            "vertices2D": [
+              [
+                -0.5,
+                -0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                -0.5,
+                0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                0.5,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "origin3D": [
+              0,
+              3.5,
+              0
+            ],
+            "normal3D": [
+              0,
+              1,
+              0
+            ],
+            "engraveHz": 7083.397916666668,
+            "fluctuationAtEngrave": 0,
+            "timestamp": 1783474693804
+          },
+          "realityTear": 0.2878806784187387
+        },
+        "zoneMap3D": {
+          "origin": [
+            0,
+            3.5,
+            0
+          ],
+          "magicType": {
+            "id": "pattern_ward",
+            "zoningRange": 10,
+            "lidarResolution": 6,
+            "fieldOfRotation": {
+              "degrees": 360,
+              "omnidirectional": true
+            },
+            "gravityStrength": 0.35,
+            "allAxisCasting": true,
+            "castAxes": [
+              "x",
+              "y",
+              "z",
+              "t",
+              "psi"
+            ]
+          },
+          "points": [],
+          "radius": 10,
+          "allAxisCasting": true
+        },
+        "waveState": {
+          "bands": [
+            {
+              "hz": 416.7645833333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8494325896963377,
+              "amplitude": 0.24409897952209023,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 1250.09375,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6172430073295979,
+              "amplitude": 0.20109450729057468,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 2083.422916666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.40045955247038173,
+              "amplitude": 0.22106847085057174,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 2916.7520833333338,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3010388910171802,
+              "amplitude": 0.3008672924333306,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 3750.08125,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3657400547135867,
+              "amplitude": 0.42789267451263735,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 4583.4104166666675,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5641331298265497,
+              "amplitude": 0.5820900317729185,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 5416.739583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8029107409643796,
+              "amplitude": 0.7391149805420458,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 6250.068750000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9697720319359895,
+              "amplitude": 0.8741767224117216,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 7083.397916666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9862395432346385,
+              "amplitude": 0.9659518910426066,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 7916.727083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8445683567286566,
+              "amplitude": 0.9999514143281507,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 8750.056250000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6113886198849784,
+              "amplitude": 0.9708073737186296,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 9583.385416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3963684208010339,
+              "amplitude": 0.8831209745716462,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 10416.714583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.300635132099571,
+              "amplitude": 0.7507359777764246,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 11250.043750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.36921357139545946,
+              "amplitude": 0.5945532639950188,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 12083.372916666669,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5698502676989499,
+              "amplitude": 0.439230293796932,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 12916.702083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8081826404019279,
+              "amplitude": 0.30928933714435836,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 13750.031250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9721192359336144,
+              "amplitude": 0.2252452236016853,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 14583.360416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9845581017636551,
+              "amplitude": 0.20036667697727972,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 15416.689583333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8396491142998048,
+              "amplitude": 0.23858139287335406,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 16250.018750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6055451488671145,
+              "amplitude": 0.33385619496988983,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 17083.347916666666,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3923489972796202,
+              "amplitude": 0.47114927167716686,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 17916.677083333336,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3003301540088962,
+              "amplitude": 0.6287850547865346,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 18750.006250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3727665245326497,
+              "amplitude": 0.7818763085330303,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 19583.33541666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5755900659548829,
+              "amplitude": 0.9062531560550375,
+              "dimensionAxis": "t"
+            }
+          ],
+          "fluctuation": 0,
+          "timestamp": 1783474693804
+        }
+      },
+      "timestamp": 1783474693.868581
+    },
+    {
+      "source_id": "ultrasound_db_8_40p0_kHz",
+      "frequency_hz": 40000.0,
+      "frequency_mhz": 0.04,
+      "wavelength_m": 7494.81145,
+      "lock_error_hz": 0.0,
+      "snr_db": -0.6542268972484401,
+      "symbol_count": 1000,
+      "symbol_preview": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "information_string": "h.....~.....!%.8....(*o...]|+...P.C.i.....S.1..s.(...o..{H=\\2.y....H......U!.4\"...>.R..Oik>...T]I...J..v..W..=g}......d..0..#",
+      "tune_ack": {
+        "executed": true,
+        "permitted": true,
+        "tier": 2,
+        "enforceResult": {
+          "pattern": {
+            "id": "pattern_ward",
+            "vertices2D": [
+              [
+                -0.5,
+                -0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                -0.5,
+                0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                0.5,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "origin3D": [
+              0,
+              3.5,
+              0
+            ],
+            "normal3D": [
+              0,
+              1,
+              0
+            ],
+            "engraveHz": 6250.068750000001,
+            "fluctuationAtEngrave": 0,
+            "timestamp": 1783474694008
+          },
+          "realityTear": 0.3328405061603325
+        },
+        "zoneMap3D": {
+          "origin": [
+            0,
+            3.5,
+            0
+          ],
+          "magicType": {
+            "id": "pattern_ward",
+            "zoningRange": 10,
+            "lidarResolution": 6,
+            "fieldOfRotation": {
+              "degrees": 360,
+              "omnidirectional": true
+            },
+            "gravityStrength": 0.35,
+            "allAxisCasting": true,
+            "castAxes": [
+              "x",
+              "y",
+              "z",
+              "t",
+              "psi"
+            ]
+          },
+          "points": [],
+          "radius": 10,
+          "allAxisCasting": true
+        },
+        "waveState": {
+          "bands": [
+            {
+              "hz": 416.7645833333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.6008824035822053,
+              "amplitude": 0.24843143782266722,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 1250.09375,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3891879145998115,
+              "amplitude": 0.3504797617293445,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 2083.422916666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.30015744070599004,
+              "amplitude": 0.49192186333980037,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 2916.7520833333338,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.37566335856293365,
+              "amplitude": 0.6504269451206701,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 3750.08125,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5801940998678718,
+              "amplitude": 0.8009709009500192,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 4583.4104166666675,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8175556510409197,
+              "amplitude": 0.9197859555414434,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 5416.739583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9761131511059735,
+              "amplitude": 0.9881138154559954,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 6250.068750000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9812945205117996,
+              "amplitude": 0.9951670089314486,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 7083.397916666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8306629514176609,
+              "amplitude": 0.9398320918847451,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 7916.727083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5950627353210098,
+              "amplitude": 0.8308451049580359,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 8750.056250000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.38530037659652994,
+              "amplitude": 0.6854127346357793,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 9583.385416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.30003040306686274,
+              "amplitude": 0.5264955652261478,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 10416.714583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.37935662090186495,
+              "amplitude": 0.37918313531096226,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 11250.043750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5859705834355449,
+              "amplitude": 0.26673295488926096,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 12083.372916666669,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8226986379123373,
+              "amplitude": 0.20689817872862146,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 12916.702083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9782038138781501,
+              "amplitude": 0.2091255658195165,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 13750.031250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9793495876870284,
+              "amplitude": 0.2730634605506534,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 14583.360416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8255970839430538,
+              "amplitude": 0.38861747046175427,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 15416.689583333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5892585992325634,
+              "amplitude": 0.5375439612117506,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 16250.018750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.38148767596094946,
+              "amplitude": 0.696331053767973,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 17083.347916666666,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3000023108023949,
+              "amplitude": 0.8399095839069457,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 17916.677083333336,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.38312634924116873,
+              "amplitude": 0.9456116480608834,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 18750.006250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.5917652520436627,
+              "amplitude": 0.9967492066263854,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 19583.33541666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.8277927984526077,
+              "amplitude": 0.9852488110407303,
+              "dimensionAxis": "t"
+            }
+          ],
+          "fluctuation": 0,
+          "timestamp": 1783474694008
+        }
+      },
+      "timestamp": 1783474694.071713
+    },
+    {
+      "source_id": "ultrasound_db_9_60p0_kHz",
+      "frequency_hz": 60000.0,
+      "frequency_mhz": 0.06,
+      "wavelength_m": 4996.5409666666665,
+      "lock_error_hz": 0.0,
+      "snr_db": -0.6314069043678251,
+      "symbol_count": 1000,
+      "symbol_preview": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "information_string": "#.....fR.........]NGIs.lY..5I.5.?j.4....V.......0Hx..Ha.yih(}.~.o..g.d.z..\\.?.>..h.`e.N.vGq.R....<n...3-.9.........E@...od.l@",
+      "tune_ack": {
+        "executed": true,
+        "permitted": true,
+        "tier": 2,
+        "enforceResult": {
+          "pattern": {
+            "id": "pattern_ward",
+            "vertices2D": [
+              [
+                -0.5,
+                -0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                -0.5,
+                0.5
+              ],
+              [
+                0,
+                0
+              ],
+              [
+                0.5,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "origin3D": [
+              0,
+              3.5,
+              0
+            ],
+            "normal3D": [
+              0,
+              1,
+              0
+            ],
+            "engraveHz": 6250.068750000001,
+            "fluctuationAtEngrave": 0,
+            "timestamp": 1783474694199
+          },
+          "realityTear": 0.3108973177294379
+        },
+        "zoneMap3D": {
+          "origin": [
+            0,
+            3.5,
+            0
+          ],
+          "magicType": {
+            "id": "pattern_ward",
+            "zoningRange": 10,
+            "lidarResolution": 6,
+            "fieldOfRotation": {
+              "degrees": 360,
+              "omnidirectional": true
+            },
+            "gravityStrength": 0.35,
+            "allAxisCasting": true,
+            "castAxes": [
+              "x",
+              "y",
+              "z",
+              "t",
+              "psi"
+            ]
+          },
+          "points": [],
+          "radius": 10,
+          "allAxisCasting": true
+        },
+        "waveState": {
+          "bands": [
+            {
+              "hz": 416.7645833333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.7174099419776121,
+              "amplitude": 0.20077364408506826,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 1250.09375,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.4803032665262834,
+              "amplitude": 0.2419714598001888,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 2083.422916666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3230076268379714,
+              "amplitude": 0.3396941362720588,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 2916.7520833333338,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.31950160226849994,
+              "amplitude": 0.47851322262912493,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 3750.08125,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.47143412888147485,
+              "amplitude": 0.6365125537256433,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 4583.4104166666675,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.7073489858208151,
+              "amplitude": 0.7887473527151303,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 5416.739583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.916291715102632,
+              "amplitude": 0.9111830808694443,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 6250.068750000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.999993273488587,
+              "amplitude": 0.984489819736521,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 7083.397916666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9190875584154201,
+              "amplitude": 0.9970940646226014,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 7916.727083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.7116257439957181,
+              "amplitude": 0.9470059111153319,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 8750.056250000001,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.4751803754598931,
+              "amplitude": 0.8421331284368334,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 9583.385416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.32095541871772615,
+              "amplitude": 0.6990328308181857,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 10416.714583333334,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3214852902316605,
+              "amplitude": 0.5402974193920727,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 11250.043750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.47652071064175383,
+              "amplitude": 0.39098789976219095,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 12083.372916666669,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.7131461909704031,
+              "amplitude": 0.27467662192674835,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 12916.702083333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9200730271196835,
+              "amplitude": 0.20972677644036739,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 13750.031250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9999802820145387,
+              "amplitude": 0.2063925206119632,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 14583.360416666668,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.9152863201833259,
+              "amplitude": 0.26520026037085837,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 15416.689583333335,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.7058241228365489,
+              "amplitude": 0.37686538400547565,
+              "dimensionAxis": "t"
+            },
+            {
+              "hz": 16250.018750000003,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.4701069103819302,
+              "amplitude": 0.5237586781646955,
+              "dimensionAxis": "psi"
+            },
+            {
+              "hz": 17083.347916666666,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.31899623993391457,
+              "amplitude": 0.6826888063099601,
+              "dimensionAxis": "x"
+            },
+            {
+              "hz": 17916.677083333336,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.3235618302574066,
+              "amplitude": 0.8285641839590665,
+              "dimensionAxis": "y"
+            },
+            {
+              "hz": 18750.006250000002,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.4816564126034534,
+              "amplitude": 0.9383542856548759,
+              "dimensionAxis": "z"
+            },
+            {
+              "hz": 19583.33541666667,
+              "bandwidth": 666.6633333333334,
+              "constructive": 0.7189255430733876,
+              "amplitude": 0.9947256293783746,
+              "dimensionAxis": "t"
+            }
+          ],
+          "fluctuation": 0,
+          "timestamp": 1783474694199
+        }
+      },
+      "timestamp": 1783474694.2622693
+    }
+  ],
+  "safe_execution": true
+}

@@ -101,13 +101,26 @@ class ZoneClimatePlan:
     zone_id: str
     intervention_type: str
     intervention_intensity: float  # 0..100
+
+    # Temperature control outputs
+    # - target_temp_range_c is the derived steady-state band
+    # - temp_delta_directive_c + duration_s allow explicit control directives
     target_temp_range_c: Tuple[float, float]
     current_temp_c: float
+    temp_delta_directive_c: Optional[float]
+    duration_s: Optional[int]
+
+    # Wind proxy output (for "increase winds velocity" requests)
+    # Scale is proxy 0..1 unless a consumer converts it.
+    wind_velocity_proxy_0_1: float
+
     altitude_layer: str
     teleconnection_risk: str
     ecosystem_tolerance: float
     ecosystem_tolerance_change_per_decade_c: float
     zone_impact: Dict[str, Any]
+
+
 
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -120,8 +133,15 @@ class ZoneClimatePlan:
             "teleconnection_risk": self.teleconnection_risk,
             "ecosystem_tolerance": self.ecosystem_tolerance,
             "ecosystem_tolerance_change_per_decade_c": self.ecosystem_tolerance_change_per_decade_c,
+
+            # Optional explicit directives / wind proxies
+            "temp_delta_directive_c": self.temp_delta_directive_c,
+            "duration_s": self.duration_s,
+            "wind_velocity_proxy_0_1": self.wind_velocity_proxy_0_1,
+
             "zone_impact": self.zone_impact,
         }
+
 
 
 def choose_intervention_type(zone_hash_int: int) -> str:
@@ -140,6 +160,7 @@ def zone_climate_plan(
     waypoint: Vec3,
     ack: Dict[str, Any],
     spectrum_metrics: Dict[str, Any],
+    attention: float = 0.0,
 ) -> ZoneClimatePlan:
     """Create a deterministic proxy intervention plan for a zone."""
     h = int(_hash_text(zone_id)[:10], 16)
@@ -190,12 +211,46 @@ def zone_climate_plan(
 
     intervention_type = choose_intervention_type(h)
 
+    # Observer attention routes additional precision + wind control.
+    # attention is expected in [0,1], but we clamp for safety.
+    att = _clamp01(float(attention or 0.0))
+
+    # Temperature control ("lower temperature again" under high attention)
+    # Reduce effective tear_norm so we bias toward more aggressive cooling directives.
+    effective_tear_norm = _clamp01(tear_norm * (1.0 - 0.25 * att))
+
+    # Recompute target range around cooling bias.
+    # Narrow the band and pull the minimum down with attention.
+    width = 2.0 + 3.0 * effective_tear_norm
+    target_min = current_temp - width * (1.0 + 0.35 * att)
+    target_max = current_temp + width * 0.7
+
+    # Recompute risk/constraints based on effective tear_norm.
+    risk_val = 1.0 - (1.0 - effective_tear_norm) * 0.8
+    if risk_val < 0.33:
+        risk = "low"
+    elif risk_val < 0.66:
+        risk = "med"
+    else:
+        risk = "high"
+
+    tol = _clamp01(1.0 - risk_val * 0.9)
+    tol_change = 0.5 + 2.0 * tol  # °C/decade (proxy)
+
+    # Wind velocity proxy (0..1) derived from tear safety + modulation intensity.
+    # Higher intensity + lower tear => higher winds velocity proxy.
+    # attention increases wind proxy linearly.
+    wind_proxy = _clamp01((1.0 - effective_tear_norm) * _clamp01(intensity / 100.0) * (1.0 + 0.75 * att))
+
     return ZoneClimatePlan(
         zone_id=zone_id,
         intervention_type=intervention_type,
         intervention_intensity=float(intensity),
         target_temp_range_c=(float(target_min), float(target_max)),
         current_temp_c=float(current_temp),
+        temp_delta_directive_c=None,
+        duration_s=None,
+        wind_velocity_proxy_0_1=float(wind_proxy),
         altitude_layer=altitude,
         teleconnection_risk=risk,
         ecosystem_tolerance=float(tol),
@@ -206,6 +261,7 @@ def zone_climate_plan(
             "spectrum_avg_compression_ratio": float(avg_comp),
         },
     )
+
 
 
 def plan_climate_for_path(
@@ -237,11 +293,16 @@ def plan_climate_for_path(
 
         zone_id = waypoint_to_zone_id(waypoint)
 
+        # NOTE: attention routing is optional; if provided by upstream,
+        # it should already be embedded into `step` as step.get('attention').
+        attention = step.get("attention") if isinstance(step, dict) else None
+
         plan = zone_climate_plan(
             zone_id=zone_id,
             waypoint=waypoint,
             ack=ack_env,
             spectrum_metrics=spectrum_metrics,
+            attention=float(attention) if attention is not None else 0.0,
         )
         zones.append({"step_index": si, **plan.to_dict()})
 

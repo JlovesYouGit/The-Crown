@@ -13,9 +13,18 @@ import time
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from mana_ciel.wallet import ManaCielWallet
-from mana_ciel.stack_method import get_all_containers, ultimate_pi_decompress
-from mana_ciel.narrative_timing import get_narrative_state
+# ManaCielWallet is not required for the lightweight metrics collection path used here.
+# Keeping this import out avoids package-level dependency issues.
+# from mana_ciel.wallet import ManaCielWallet
+# Repo-local import: bow-of-Achilles/mana_ciel is not necessarily installed as a package.
+# Use the repo-local stack_method implementations shipped with this repository.
+from stack_method import get_all_containers, ultimate_pi_decompress
+# Local narration timing is optional for metrics; if absent, fall back to defaults.
+try:
+    from narrative_timing import get_narrative_state  # type: ignore
+except Exception:  # pragma: no cover
+    def get_narrative_state():
+        return {"pulse": 1, "q_factor": 1, "elapsed_ticks": 0}
 
 WARP_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = WARP_ROOT / "data"

@@ -1,0 +1,79 @@
+﻿Installing assembly 'c:\QuantumEnergyService\CosmicQubitService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\QuantumEnergyService\CosmicQubitService.InstallLog
+   assemblypath = c:\QuantumEnergyService\CosmicQubitService.exe
+Installing service CosmicQubitWindowsService...
+Creating EventLog source CosmicQubitWindowsService in log Application...
+Rolling back assembly 'c:\QuantumEnergyService\CosmicQubitService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\QuantumEnergyService\CosmicQubitService.InstallLog
+   assemblypath = c:\QuantumEnergyService\CosmicQubitService.exe
+Restoring event log to previous state for source CosmicQubitWindowsService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'c:\QuantumEnergyService\CosmicQubitService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\QuantumEnergyService\CosmicQubitService.InstallLog
+   assemblypath = c:\QuantumEnergyService\CosmicQubitService.exe
+Installing service CosmicQubitWindowsService...
+Creating EventLog source CosmicQubitWindowsService in log Application...
+Rolling back assembly 'c:\QuantumEnergyService\CosmicQubitService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\QuantumEnergyService\CosmicQubitService.InstallLog
+   assemblypath = c:\QuantumEnergyService\CosmicQubitService.exe
+Restoring event log to previous state for source CosmicQubitWindowsService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'c:\QuantumEnergyService\CosmicQubitService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\QuantumEnergyService\CosmicQubitService.InstallLog
+   assemblypath = c:\QuantumEnergyService\CosmicQubitService.exe
+Installing service CosmicQubitWindowsService...
+Service CosmicQubitWindowsService has been successfully installed.
+Creating EventLog source CosmicQubitWindowsService in log Application...
+Committing assembly 'c:\QuantumEnergyService\CosmicQubitService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\QuantumEnergyService\CosmicQubitService.InstallLog
+   assemblypath = c:\QuantumEnergyService\CosmicQubitService.exe
+Installing assembly 'c:\QuantumEnergyService\CosmicQubitService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\QuantumEnergyService\CosmicQubitService.InstallLog
+   assemblypath = c:\QuantumEnergyService\CosmicQubitService.exe
+Installing service CosmicQubitWindowsService...
+Creating EventLog source CosmicQubitWindowsService in log Application...
+Rolling back assembly 'c:\QuantumEnergyService\CosmicQubitService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\QuantumEnergyService\CosmicQubitService.InstallLog
+   assemblypath = c:\QuantumEnergyService\CosmicQubitService.exe
+Restoring event log to previous state for source CosmicQubitWindowsService.
+Uninstalling assembly 'c:\QuantumEnergyService\CosmicQubitService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\QuantumEnergyService\CosmicQubitService.InstallLog
+   assemblypath = c:\QuantumEnergyService\CosmicQubitService.exe
+Removing EventLog source CosmicQubitWindowsService.
+Service CosmicQubitWindowsService is being removed from the system...
+Service CosmicQubitWindowsService was successfully removed from the system.
+Installing assembly 'c:\QuantumEnergyService\CosmicQubitService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\QuantumEnergyService\CosmicQubitService.InstallLog
+   assemblypath = c:\QuantumEnergyService\CosmicQubitService.exe
+Installing service CosmicQubitWindowsService...
+Service CosmicQubitWindowsService has been successfully installed.
+Creating EventLog source CosmicQubitWindowsService in log Application...
+Committing assembly 'c:\QuantumEnergyService\CosmicQubitService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\QuantumEnergyService\CosmicQubitService.InstallLog
+   assemblypath = c:\QuantumEnergyService\CosmicQubitService.exe

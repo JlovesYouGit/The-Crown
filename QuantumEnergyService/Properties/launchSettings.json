@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "QuantumEnergyService": {
+      "commandName": "Project",
+      "dotnetRunMessages": true
+    },
+    "QWTSDemo": {
+      "commandName": "Project",
+      "commandLineArgs": "demo",
+      "dotnetRunMessages": true
+    }
+  }
+}

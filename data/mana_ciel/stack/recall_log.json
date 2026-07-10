@@ -1,0 +1,5782 @@
+{
+  "recalls": [
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:03:05.383508Z",
+      "narrative_tick": 3821618900,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.470283655513785,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 600,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:03:05.484802Z",
+      "narrative_tick": 3922019100,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.464450425143916,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 300,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:03:05.626879Z",
+      "narrative_tick": 4064104300,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.476017769273449,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 700,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:03:05.799271Z",
+      "narrative_tick": 4236477100,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.471268836806428,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 700,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:03:06.003847Z",
+      "narrative_tick": 4441592000,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.475750603329877,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 500,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:03:21.237988Z",
+      "narrative_tick": 886269000,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.46790368853549,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 200,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:03:21.446419Z",
+      "narrative_tick": 1094149300,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.4702484549406,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 400,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:03:21.733764Z",
+      "narrative_tick": 1381609000,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.46790368853549,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 900,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:03:22.020449Z",
+      "narrative_tick": 1668496700,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.471268836806428,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 300,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:03:22.338614Z",
+      "narrative_tick": 1986387300,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.478198648036435,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 700,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:04:09.318550Z",
+      "narrative_tick": 857058400,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.469380422915707,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 600,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:04:12.795373Z",
+      "narrative_tick": 4333156200,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.464450425143916,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 700,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:04:13.113786Z",
+      "narrative_tick": 4652225100,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.469380422915707,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 800,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:04:13.424742Z",
+      "narrative_tick": 4962847200,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.469380422915707,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 900,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:04:13.762168Z",
+      "narrative_tick": 5300213300,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.477255725372307,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 500,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:04:53.880442Z",
+      "narrative_tick": 853692800,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.462946088251919,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 100,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:04:54.247107Z",
+      "narrative_tick": 1220562700,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.471268836806428,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 200,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:04:54.881881Z",
+      "narrative_tick": 1854454500,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.471718658032579,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 100,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:04:55.373599Z",
+      "narrative_tick": 2346148200,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.471268836806428,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 500,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:04:55.849588Z",
+      "narrative_tick": 2822587600,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.478198648036435,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 0,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:20:15.109939Z",
+      "narrative_tick": 1036745000,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.478198648036435,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 500,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:20:15.715837Z",
+      "narrative_tick": 1642078700,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.4702484549406,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 100,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:20:16.322623Z",
+      "narrative_tick": 2249822600,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.462946088251919,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 300,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:20:16.967518Z",
+      "narrative_tick": 2893818000,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.477255725372307,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 100,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:20:17.520689Z",
+      "narrative_tick": 3446250500,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.471718658032579,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 300,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:02.175564Z",
+      "narrative_tick": 954802400,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.473142351527755,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 500,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:05.700484Z",
+      "narrative_tick": 4479777400,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.476017769273449,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 200,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:06.346546Z",
+      "narrative_tick": 5125809100,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.471718658032579,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 600,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:06.932607Z",
+      "narrative_tick": 5711896100,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.4702484549406,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 900,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:07.498298Z",
+      "narrative_tick": 6277416500,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.471268836806428,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 600,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:08.073410Z",
+      "narrative_tick": 6852415000,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.4702484549406,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 700,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:08.775372Z",
+      "narrative_tick": 7554937100,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.478198648036435,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 600,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:09.398723Z",
+      "narrative_tick": 8177908500,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.478198648036435,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 300,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:09.994229Z",
+      "narrative_tick": 8774106100,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.477255725372307,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 400,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:10.614566Z",
+      "narrative_tick": 9393605200,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.467857989538802,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 800,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:11.260415Z",
+      "narrative_tick": 10039596900,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.475750603329877,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 600,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:11.923854Z",
+      "narrative_tick": 10702937100,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.467857989538802,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 700,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:12.642503Z",
+      "narrative_tick": 11421896600,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.471718658032579,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 200,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:13.341244Z",
+      "narrative_tick": 12120969500,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.471268836806428,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 900,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:14.165881Z",
+      "narrative_tick": 12945413600,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.46790368853549,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 200,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:15.036465Z",
+      "narrative_tick": 13816329200,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.473142351527755,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 200,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:15.754418Z",
+      "narrative_tick": 14533637900,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.478198648036435,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 200,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:16.483801Z",
+      "narrative_tick": 15262958500,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.476017769273449,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 200,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:17.256242Z",
+      "narrative_tick": 16036056900,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.474532137374981,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 500,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:18.038510Z",
+      "narrative_tick": 16817957400,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.473142351527755,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 400,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:18.817586Z",
+      "narrative_tick": 17597449900,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.474532137374981,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 700,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:19.603285Z",
+      "narrative_tick": 18382308400,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.470874696246402,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 0,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:20.441958Z",
+      "narrative_tick": 19222101800,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.476017769273449,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 800,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:21.294416Z",
+      "narrative_tick": 20073476100,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.468737637452484,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 0,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:22.272391Z",
+      "narrative_tick": 21052048800,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.473142351527755,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 100,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:23.243065Z",
+      "narrative_tick": 22022973000,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.468737637452484,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 700,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:24.199179Z",
+      "narrative_tick": 22978460400,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.468737637452484,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 200,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:25.117114Z",
+      "narrative_tick": 23897126500,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.4702484549406,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 700,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:26.030877Z",
+      "narrative_tick": 24810198800,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.473142351527755,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 500,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:27.280878Z",
+      "narrative_tick": 26059907200,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.470874696246402,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 500,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:28.263892Z",
+      "narrative_tick": 27043173500,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.462946088251919,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 100,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:29.278395Z",
+      "narrative_tick": 28058309200,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.471268836806428,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 700,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:30.281224Z",
+      "narrative_tick": 29061651100,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.476017769273449,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 400,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:31.532623Z",
+      "narrative_tick": 30312968900,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.471268836806428,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 700,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:32.682844Z",
+      "narrative_tick": 31462039600,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.470874696246402,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 200,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:33.741154Z",
+      "narrative_tick": 32520272100,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.474532137374981,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 700,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:34.773727Z",
+      "narrative_tick": 33553056600,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.469380422915707,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 600,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:35.845543Z",
+      "narrative_tick": 34625145300,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.477255725372307,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 700,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:36.951730Z",
+      "narrative_tick": 35730954000,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.462946088251919,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 100,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:38.002281Z",
+      "narrative_tick": 36781930200,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.478198648036435,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 500,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:39.262919Z",
+      "narrative_tick": 38042174700,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.473142351527755,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 200,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:40.507117Z",
+      "narrative_tick": 39286502900,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.471718658032579,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 600,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:41.692056Z",
+      "narrative_tick": 40471145600,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.471718658032579,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 800,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:43.055537Z",
+      "narrative_tick": 41835252700,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.464450425143916,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 600,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:44.507768Z",
+      "narrative_tick": 43287736100,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.4702484549406,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 900,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:46.465331Z",
+      "narrative_tick": 45244578300,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.475750603329877,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 800,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:47.714523Z",
+      "narrative_tick": 46495105300,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.474532137374981,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 0,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:48.969619Z",
+      "narrative_tick": 47748622900,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.470874696246402,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 100,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:50.288406Z",
+      "narrative_tick": 49068467000,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.471718658032579,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 600,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:22:51.591356Z",
+      "narrative_tick": 50370615600,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.473142351527755,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 100,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:29:33.417075Z",
+      "narrative_tick": 1153942400,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.471718658032579,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 400,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:29:34.866119Z",
+      "narrative_tick": 2603067500,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.462946088251919,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 300,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:29:36.249145Z",
+      "narrative_tick": 3986810100,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.473142351527755,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 500,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:43:44.072144Z",
+      "narrative_tick": 1188168700,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.476017769273449,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 500,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:53:35.090310Z",
+      "narrative_tick": 934768900,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.472342800505983,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 100,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:56:11.918741Z",
+      "narrative_tick": 989577400,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.4743861048152676,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 700,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:56:13.350552Z",
+      "narrative_tick": 2421470900,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.479902873838593,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 200,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:56:14.741996Z",
+      "narrative_tick": 3812429800,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.478491191800017,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 700,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:56:16.124858Z",
+      "narrative_tick": 5195967300,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.479902873838593,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 800,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:56:17.568670Z",
+      "narrative_tick": 6640088000,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.475227606517173,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 900,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:56:50.755573Z",
+      "narrative_tick": 1229001500,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.477813058597883,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 200,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:56:52.407304Z",
+      "narrative_tick": 2881567600,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.47150782906461,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 900,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:56:54.059444Z",
+      "narrative_tick": 4532802000,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 6.4743861048152676,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 200,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:57:24.945586Z",
+      "narrative_tick": 2413628300,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.2650371185399476,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 100,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:57:27.875255Z",
+      "narrative_tick": 5343775200,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.2663296622810103,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 100,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T01:57:30.615346Z",
+      "narrative_tick": 8084160900,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.2661316728442737,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 300,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T22:11:29.991036Z",
+      "narrative_tick": 2175568100,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.2651242763315436,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 400,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T22:11:32.399925Z",
+      "narrative_tick": 4584274400,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.262884262971832,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 300,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T22:11:34.727529Z",
+      "narrative_tick": 6912014100,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.26600392170286,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 200,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T22:13:19.724715Z",
+      "narrative_tick": 2028643200,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.262884262971832,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 600,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T22:13:22.080374Z",
+      "narrative_tick": 4384406600,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.266629965567585,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 0,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T22:13:24.582098Z",
+      "narrative_tick": 6886407100,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.26600392170286,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 100,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T22:14:54.726152Z",
+      "narrative_tick": 2080098800,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.26600392170286,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 300,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T22:14:57.302064Z",
+      "narrative_tick": 4655600200,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.26600392170286,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 700,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T22:14:59.795407Z",
+      "narrative_tick": 7148913000,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.262884262971832,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 400,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T22:17:13.816575Z",
+      "narrative_tick": 2110620600,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.2673311066681894,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 100,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T22:17:16.403544Z",
+      "narrative_tick": 4697878600,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.2673311066681894,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 900,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T22:17:18.929088Z",
+      "narrative_tick": 7223907900,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.2654165163360243,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 600,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T22:20:34.846783Z",
+      "narrative_tick": 2210802000,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.2661316728442737,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 400,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T22:20:37.318516Z",
+      "narrative_tick": 4682496400,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.2661316728442737,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 200,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-07T22:20:39.889687Z",
+      "narrative_tick": 7253874500,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.267568453288936,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 500,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    },
+    {
+      "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+      "recalled_at_iso": "2026-07-09T22:53:45.423825Z",
+      "narrative_tick": 3278470600,
+      "pulse": 5,
+      "base_density": 0.0,
+      "density_boost": 2.262490405990697,
+      "recalled_density": 0.0,
+      "source_imprint": {
+        "node_id": "13sikfxXLWV4JUGRNf4k8mwekXr7fdLkss",
+        "stopped_at_iso": "2026-07-07T01:03:05.363397Z",
+        "narrative_tick": 3800708100,
+        "pulse": 5,
+        "q_factor": 78125,
+        "momentum": 0.0,
+        "original_density": 0,
+        "compressed": {
+          "q": 1,
+          "power": 5,
+          "input_density": 0,
+          "compressed_density": 0.0,
+          "compression_ratio": 5,
+          "signal_hash": "75ac8a51b4b5e83f"
+        },
+        "wallet_found": false,
+        "metadata": {}
+      },
+      "route_points": [
+        {
+          "point": "local_memory",
+          "delay_ns": 0,
+          "density_factor": 1.0,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "narrative_tick",
+          "delay_ns": 500,
+          "density_factor": 1.2,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "wallet_store",
+          "delay_ns": 400,
+          "density_factor": 1.5,
+          "arrival_density": 0.0
+        },
+        {
+          "point": "stack_container",
+          "delay_ns": 800,
+          "density_factor": 2.0,
+          "arrival_density": 0.0
+        }
+      ]
+    }
+  ]
+}

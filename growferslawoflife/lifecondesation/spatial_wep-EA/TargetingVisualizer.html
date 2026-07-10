@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ea: Full Spectrum Targeting System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --neon-blue: #00f3ff;
+      --neon-purple: #bc13fe;
+      --neon-pink: #ff0055;
+      --neon-green: #39ff14;
+      --dark-bg: #020617;
+      --glass: rgba(15, 23, 42, 0.8);
+    }
+
+    body {
+      background-color: var(--dark-bg);
+      color: #f1f5f9;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      overflow: hidden;
+      display: flex;
+      height: 100vh;
+    }
+
+    /* Dashboard */
+    .dashboard {
+      width: 380px;
+      background: var(--glass);
+      backdrop-filter: blur(25px);
+      border-right: 1px solid rgba(0, 243, 255, 0.2);
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      z-index: 10;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.2rem;
+      color: var(--neon-blue);
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      border-bottom: 2px solid var(--neon-blue);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+    }
+
+    .section-header {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.8rem;
+      color: #94a3b8;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 0.5rem;
+    }
+
+    .stat-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .stat-card {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 1rem;
+      border-radius: 4px;
+      border-left: 2px solid var(--neon-blue);
+    }
+
+    .stat-card.quantum {
+      border-left-color: var(--neon-green);
+    }
+
+    .stat-card.impact {
+      border-left-color: var(--neon-pink);
+    }
+
+    .stat-label {
+      font-size: 0.65rem;
+      color: #64748b;
+      text-transform: uppercase;
+    }
+
+    .stat-value {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1rem;
+      color: #fff;
+    }
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    input[type="range"] {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 2px;
+      outline: none;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 14px;
+      height: 14px;
+      background: var(--neon-blue);
+      border-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0 0 10px var(--neon-blue);
+    }
+
+    .btn {
+      background: transparent;
+      border: 1px solid var(--neon-blue);
+      color: var(--neon-blue);
+      padding: 1rem;
+      font-family: 'Orbitron', sans-serif;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: 0.3s;
+      margin-top: 1rem;
+    }
+
+    .btn:hover {
+      background: var(--neon-blue);
+      color: #000;
+      box-shadow: 0 0 20px var(--neon-blue);
+    }
+
+    .btn.fire {
+      border-color: var(--neon-pink);
+      color: var(--neon-pink);
+    }
+
+    .btn.fire:hover {
+      background: var(--neon-pink);
+      color: #fff;
+      box-shadow: 0 0 20px var(--neon-pink);
+    }
+
+    /* Tactical Map */
+    .tactical-map {
+      flex: 1;
+      position: relative;
+      background: #000;
+      overflow: hidden;
+    }
+
+    #canvas {
+      width: 100%;
+      height: 100%;
+      cursor: crosshair;
+    }
+
+    .targeting-hud {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 1rem;
+      border-radius: 4px;
+      border: 1px solid var(--neon-pink);
+      pointer-events: none;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.8rem;
+      color: var(--neon-pink);
+    }
+
+    .phase-indicator {
+      position: absolute;
+      bottom: 2rem;
+      right: 2rem;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2rem;
+      color: rgba(255, 255, 255, 0.1);
+      text-transform: uppercase;
+      pointer-events: none;
+    }
+  </style>
+</head>
+
+<body>
+  <aside class="dashboard">
+    <h1>EA: Integrated Core</h1>
+
+    <section>
+      <div class="section-header">Quantum state (QSR)</div>
+      <div class="stat-grid">
+        <div class="stat-card quantum">
+          <div class="stat-label">Density (ρ_q)</div>
+          <div class="stat-value" id="q-density">0.00e+0</div>
+        </div>
+        <div class="stat-card quantum">
+          <div class="stat-label">Singularity</div>
+          <div class="stat-value" id="q-singularity">0.000</div>
+        </div>
+      </div>
+      <button class="btn" id="upforce-btn">Trigger Upforce</button>
+    </section>
+
+    <section>
+      <div class="section-header">Targeting Parameters</div>
+      <div class="control-group">
+        <label style="font-size: 0.7rem; color: #94a3b8;">Target Range (m)</label>
+        <input type="range" id="target-range" min="10" max="2000" value="800">
+        <div style="text-align: right; color: var(--neon-blue); font-family: 'Orbitron';" id="range-val">800 m</div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-header">Weapon Yield</div>
+      <div class="stat-grid">
+        <div class="stat-card">
+          <div class="stat-label">Max Range</div>
+          <div class="stat-value" id="max-range">0 m</div>
+        </div>
+        <div class="stat-card impact">
+          <div class="stat-label">Blast Radius</div>
+          <div class="stat-value" id="blast-radius">0 m</div>
+        </div>
+      </div>
+
+      <div class="section-header">Atmospheric / Material</div>
+      <div class="stat-grid">
+        <div class="stat-card" style="border-left-color: var(--neon-purple);">
+          <div class="stat-label">Ionization</div>
+          <div class="stat-value" id="ionization-val">0 %</div>
+        </div>
+        <div class="stat-card" style="border-left-color: #f1f5f9;">
+          <div class="stat-label">Penetration (Steel)</div>
+          <div class="stat-value" id="penetration-val">0 mm</div>
+        </div>
+      </div>
+
+      <button class="btn fire" id="fire-btn">Execute Strike</button>
+    </section>
+
+    <div style="margin-top: auto; font-size: 0.6rem; color: #475569; border-top: 1px solid #1e293b; padding-top: 1rem;">
+      FW: Quantum State Resizer v4.0.2<br>
+      Core: Electromagnetic EA Bridged<br>
+      Status: INITIALIZED
+    </div>
+  </aside>
+
+  <main class="tactical-map">
+    <canvas id="canvas"></canvas>
+    <div class="targeting-hud" id="hud">
+      TARGET: [800.0, 0.0, 0.0]<br>
+      AZIMUTH: 0.0°<br>
+      READY: YES
+    </div>
+    <div class="phase-indicator" id="phase">IDLE</div>
+  </main>
+
+  <script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    const PHI = 1.618033988749;
+
+    let width, height;
+    let upforceActive = false;
+    let qDensity = 1e25; // Base density
+    let singularity = 0.0;
+    let qSize = 1e-15;
+    let time = 0;
+
+    let firing = false;
+    let fireProgress = 0;
+    let impactPoint = { x: 0, y: 0 };
+    let impactEnergy = 0;
+
+    function resize() {
+      width = canvas.width = canvas.parentElement.clientWidth;
+      height = canvas.height = canvas.parentElement.clientHeight;
+    }
+    window.addEventListener('resize', resize);
+    resize();
+
+    const upforceBtn = document.getElementById('upforce-btn');
+    upforceBtn.onclick = () => {
+      upforceActive = !upforceActive;
+      upforceBtn.style.borderColor = upforceActive ? 'var(--neon-green)' : 'var(--neon-blue)';
+      upforceBtn.style.color = upforceActive ? 'var(--neon-green)' : 'var(--neon-blue)';
+      upforceBtn.innerText = upforceActive ? "UPFORCE ACTIVE" : "TRIGGER UPFORCE";
+      document.getElementById('phase').innerText = upforceActive ? "RESIZING" : "IDLE";
+    };
+
+    const rangeSlider = document.getElementById('target-range');
+    rangeSlider.oninput = () => {
+      document.getElementById('range-val').innerText = rangeSlider.value + ' m';
+      document.getElementById('hud').innerHTML = `TARGET: [${rangeSlider.value}.0, 0.0, 0.0]<br>AZIMUTH: 0.0°<br>READY: YES`;
+    };
+
+    const fireBtn = document.getElementById('fire-btn');
+    fireBtn.onclick = () => {
+      if (firing) return;
+      firing = true;
+      fireProgress = 0;
+      document.getElementById('phase').innerText = "RELEASING";
+    };
+
+    function update() {
+      const dt = 0.016;
+      time += dt;
+
+      // 1. Quantum State Resizer Step
+      if (upforceActive) {
+        singularity = Math.min(1.0, singularity + 0.1 * dt);
+        qDensity *= (1 + 0.5 * dt); // Exponential growth
+      } else {
+        singularity = Math.max(0, singularity - 0.2 * dt);
+        qDensity = Math.max(1e25, qDensity * (1 - 0.1 * dt));
+      }
+
+      // 2. Physics Bridge (QSR -> EA)
+      const eaEnergy = qDensity * (Math.PI * 0.0618 / 24) * PHI * 1e-24; // Normalized for display
+      const maxRange = (eaEnergy * PHI) * 20; // Visual scaling
+      const targetDist = parseInt(rangeSlider.value);
+      const blastRadius = (qDensity / 1e25) * PHI * 5;
+
+      // Realism Bridge: Ionization & Penetration
+      // Energy required for full ionization of 6cm beam path 
+      const beamVol = Math.PI * Math.pow(0.0618, 2) * maxRange;
+      const energyReqIon = beamVol * 0.1; // Scaled for viz 
+      const ionization = Math.min(100, (eaEnergy / energyReqIon) * 100);
+
+      // Steel penetration: 555kJ melts ~1mm (highly simplified)
+      const penetration = (eaEnergy / 5) * 10;
+
+      document.getElementById('q-density').innerText = qDensity.toExponential(2);
+      document.getElementById('q-singularity').innerText = singularity.toFixed(3);
+      document.getElementById('max-range').innerText = maxRange.toFixed(0) + ' m';
+      document.getElementById('blast-radius').innerText = blastRadius.toFixed(1) + ' m';
+
+      document.getElementById('ionization-val').innerText = ionization.toFixed(1) + ' %';
+      document.getElementById('penetration-val').innerText = penetration.toFixed(1) + ' mm';
+
+      // 3. Firing Sequence
+      if (firing) {
+        fireProgress += 2.0 * dt;
+        if (fireProgress >= 1.0) {
+          firing = false;
+          document.getElementById('phase').innerText = upforceActive ? "RESIZING" : "IDLE";
+        }
+      }
+    }
+
+    function draw() {
+      ctx.fillStyle = '#000';
+      ctx.fillRect(0, 0, width, height);
+
+      const originX = 100;
+      const originY = height / 2;
+      const targetRange = parseInt(rangeSlider.value);
+      const eaEnergy = qDensity * (Math.PI * 0.0618 / 24) * PHI * 1e-24;
+      const maxRange = (eaEnergy * PHI) * 20;
+      const blastRadius = (qDensity / 1e25) * PHI * 5;
+
+      // Tactical Grid
+      ctx.strokeStyle = 'rgba(0, 243, 255, 0.05)';
+      for (let i = 0; i < width; i += 100) { ctx.beginPath(); ctx.moveTo(i, 0); ctx.lineTo(i, height); ctx.stroke(); }
+      for (let j = 0; j < height; j += 100) { ctx.beginPath(); ctx.moveTo(0, j); ctx.lineTo(width, j); ctx.stroke(); }
+
+      // Range Rings
+      ctx.strokeStyle = 'rgba(0, 243, 255, 0.1)';
+      [500, 1000, 1500, 2000].forEach(r => {
+        ctx.beginPath(); ctx.arc(originX, originY, r, -Math.PI / 4, Math.PI / 4); ctx.stroke();
+      });
+
+      // Weapon Origin
+      ctx.fillStyle = upforceActive ? 'var(--neon-green)' : 'var(--neon-blue)';
+      ctx.beginPath(); ctx.arc(originX, originY, 15, 0, Math.PI * 2); ctx.fill();
+
+      // Core Glow
+      const glow = ctx.createRadialGradient(originX, originY, 0, originX, originY, 30 + singularity * 50);
+      glow.addColorStop(0, upforceActive ? 'rgba(57, 255, 20, 0.6)' : 'rgba(0, 243, 255, 0.3)');
+      glow.addColorStop(1, 'transparent');
+      ctx.fillStyle = glow;
+      ctx.beginPath(); ctx.arc(originX, originY, 30 + singularity * 50, 0, Math.PI * 2); ctx.fill();
+
+      // Target Marker
+      const tx = originX + targetRange;
+      ctx.strokeStyle = 'var(--neon-pink)';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(tx - 20, originY); ctx.lineTo(tx + 20, originY);
+      ctx.moveTo(tx, originY - 20); ctx.lineTo(tx, originY + 20);
+      ctx.stroke();
+
+      // Fire Effect
+      if (firing) {
+        const currentX = originX + (targetRange * fireProgress);
+        const impactSucces = targetRange <= maxRange;
+
+        // Beam
+        ctx.beginPath();
+        ctx.moveTo(originX, originY);
+        ctx.lineTo(currentX, originY);
+        ctx.strokeStyle = impactSucces ? 'var(--neon-pink)' : 'rgba(255, 0, 85, 0.3)';
+        ctx.lineWidth = 10 * (1 - fireProgress) + 2;
+        ctx.shadowBlur = 20; ctx.shadowColor = 'var(--neon-pink)';
+        ctx.stroke();
+        ctx.shadowBlur = 0;
+
+        // Ionization Lightning Bolts
+        const ionization = parseFloat(document.getElementById('ionization-val').innerText);
+        if (ionization > 20) {
+          ctx.strokeStyle = 'rgba(0, 243, 255, 0.5)';
+          ctx.lineWidth = 1;
+          const segments = 10;
+          for (let b = 0; b < (ionization / 20); b++) {
+            ctx.beginPath();
+            ctx.moveTo(originX, originY);
+            for (let s = 1; s <= segments; s++) {
+              const sx = originX + (currentX - originX) * (s / segments);
+              const sy = originY + (Math.random() - 0.5) * 30;
+              ctx.lineTo(sx, sy);
+            }
+            ctx.stroke();
+          }
+        }
+
+        // Impact
+        if (fireProgress > 0.9 && impactSucces) {
+          const impactRadius = blastRadius * (fireProgress - 0.9) * 10;
+          const iGrad = ctx.createRadialGradient(tx, originY, 0, tx, originY, impactRadius);
+          iGrad.addColorStop(0, 'white');
+          iGrad.addColorStop(0.3, 'rgba(255, 0, 85, 0.8)');
+          iGrad.addColorStop(1, 'transparent');
+          ctx.fillStyle = iGrad;
+          ctx.beginPath(); ctx.arc(tx, originY, impactRadius, 0, Math.PI * 2); ctx.fill();
+
+          // Shockwave
+          ctx.strokeStyle = 'var(--neon-pink)';
+          ctx.beginPath(); ctx.arc(tx, originY, impactRadius * 1.5, 0, Math.PI * 2); ctx.stroke();
+        }
+      }
+
+      update();
+      requestAnimationFrame(draw);
+    }
+
+    resize();
+    draw();
+  </script>
+</body>
+
+</html>

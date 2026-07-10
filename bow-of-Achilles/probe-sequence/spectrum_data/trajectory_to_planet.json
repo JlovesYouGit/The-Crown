@@ -1,0 +1,289 @@
+{
+  "started_at": 1783637636.324935,
+  "finished_at": 1783637646.2963736,
+  "origin": {
+    "source": "earth_coverage_field",
+    "origin3d": [
+      -6371.0,
+      7.802224757367787e-13,
+      3.9011123786838936e-13
+    ],
+    "escape_movement": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "target_planet": {
+    "key": "mars",
+    "name": "Mars",
+    "ra_hours": 2.6,
+    "dec_deg": 15.0,
+    "life_potential": 0.8,
+    "intelligence_potential": 0.7,
+    "approximate_distance_km": 15416.959,
+    "angular_separation_rad": 2.419865
+  },
+  "celestial_trajectory": [
+    {
+      "hop_id": "d0baadaebef210fa",
+      "origin_ra_rad": 3.141592653589793,
+      "origin_dec_rad": 6.123233995736766e-17,
+      "target_ra_rad": 3.428776034168407,
+      "target_dec_rad": 0.1748906636248313,
+      "position_xyz": [
+        -6016.873055902205,
+        -1777.070909574627,
+        1108.556995152558
+      ],
+      "arc_length_km": 8538.419603747887,
+      "angular_distance_rad": 1.340200848178918,
+      "energy_per_tick": 1.4922120578169595,
+      "anchor_id": "Arcturus"
+    },
+    {
+      "hop_id": "1db964afa33b7b86",
+      "origin_ra_rad": 3.141592653589793,
+      "origin_dec_rad": 6.123233995736766e-17,
+      "target_ra_rad": 3.428751426506443,
+      "target_dec_rad": 0.1749025043809474,
+      "position_xyz": [
+        -6016.904194549544,
+        -1776.9191300333484,
+        1108.6312817766022
+      ],
+      "arc_length_km": 8538.609172132507,
+      "angular_distance_rad": 1.3402306030658462,
+      "energy_per_tick": 1.4921458056463301,
+      "anchor_id": "Arcturus"
+    },
+    {
+      "hop_id": "a9f37c735f394c65",
+      "origin_ra_rad": 3.141592653589793,
+      "origin_dec_rad": 6.123233995736766e-17,
+      "target_ra_rad": 3.365305963826656,
+      "target_dec_rad": -0.5547994740384591,
+      "position_xyz": [
+        -5280.4393011375305,
+        -1201.4144023244255,
+        -3356.0699070325754
+      ],
+      "arc_length_km": 15134.247941888949,
+      "angular_distance_rad": 2.375490180801907,
+      "energy_per_tick": 0.8418933455454508,
+      "anchor_id": "Alpha Cen"
+    },
+    {
+      "hop_id": "510889f19984594d",
+      "origin_ra_rad": 3.141592653589793,
+      "origin_dec_rad": 6.123233995736766e-17,
+      "target_ra_rad": 3.3652729346495955,
+      "target_dec_rad": -0.5547924208722976,
+      "position_xyz": [
+        -5280.502061076487,
+        -1201.2452437510324,
+        -3356.0317113121123
+      ],
+      "arc_length_km": 15134.47235385769,
+      "angular_distance_rad": 2.3755254047806766,
+      "energy_per_tick": 0.8418683800789538,
+      "anchor_id": "Alpha Cen"
+    },
+    {
+      "hop_id": "4a48fc4f76588ef6",
+      "origin_ra_rad": 3.141592653589793,
+      "origin_dec_rad": 6.123233995736766e-17,
+      "target_ra_rad": 2.472136263207266,
+      "target_dec_rad": -0.18761920989302389,
+      "position_xyz": [
+        -4908.205544557354,
+        3884.2053470707706,
+        -1188.321570183463
+      ],
+      "arc_length_km": 17611.814922376692,
+      "angular_distance_rad": 2.764372142893846,
+      "energy_per_tick": 0.7235741694910076,
+      "anchor_id": "Sirius"
+    },
+    {
+      "hop_id": "9405707352e83a5c",
+      "origin_ra_rad": 3.141592653589793,
+      "origin_dec_rad": 6.123233995736766e-17,
+      "target_ra_rad": 2.4721610003533896,
+      "target_dec_rad": -0.1876357538863703,
+      "position_xyz": [
+        -4908.286209995074,
+        3884.071730786759,
+        -1188.4251221155384
+      ],
+      "arc_length_km": 17612.067859755276,
+      "angular_distance_rad": 2.7644118442560472,
+      "energy_per_tick": 0.7235533840596383,
+      "anchor_id": "Sirius"
+    }
+  ],
+  "magi_zone_pathing": {
+    "started_at": 1783637646.294336,
+    "voice_phrases": [
+      "ward",
+      "shield",
+      "manifest"
+    ],
+    "start_origin3d": [
+      -6371.0,
+      7.802224757367787e-13,
+      3.9011123786838936e-13
+    ],
+    "steps": 6,
+    "candidates_per_step": 8,
+    "radius": 10.0,
+    "path": [
+      {
+        "step_index": 0,
+        "origin3d": [
+          -6371.0,
+          7.802224757367787e-13,
+          3.9011123786838936e-13
+        ],
+        "chosen_target": [
+          -6378.369245218294,
+          -3.226929876082852,
+          0.6653114721004074
+        ],
+        "movementVector": [
+          -7.369245218294054,
+          -3.2269298760836325,
+          0.6653114721000173
+        ],
+        "ack_executed": true,
+        "ack_permitted": true,
+        "ack_tier": 2,
+        "score": 10.731650508012304,
+        "reality_tear": 0.3577615652429584,
+        "timestamp": 1783637638.1414702
+      },
+      {
+        "step_index": 1,
+        "origin3d": [
+          -6378.369245218294,
+          -3.226929876082852,
+          0.6653114721004074
+        ],
+        "chosen_target": [
+          -6372.190284656931,
+          -6.556422499865736,
+          4.56126795065787
+        ],
+        "movementVector": [
+          6.178960561363056,
+          -3.3294926237828837,
+          3.895956478557462
+        ],
+        "ack_executed": true,
+        "ack_permitted": true,
+        "ack_tier": 2,
+        "score": 10.594089054499724,
+        "reality_tear": 0.3456041079871673,
+        "timestamp": 1783637639.6302624
+      },
+      {
+        "step_index": 2,
+        "origin3d": [
+          -6372.190284656931,
+          -6.556422499865736,
+          4.56126795065787
+        ],
+        "chosen_target": [
+          -6374.1602073086615,
+          -12.736587646402198,
+          3.0076246576267978
+        ],
+        "movementVector": [
+          -1.969922651730485,
+          -6.180165146536462,
+          -1.553643293031072
+        ],
+        "ack_executed": true,
+        "ack_permitted": true,
+        "ack_tier": 2,
+        "score": 8.815888816304634,
+        "reality_tear": 0.29061277903338345,
+        "timestamp": 1783637641.0554104
+      },
+      {
+        "step_index": 3,
+        "origin3d": [
+          -6374.1602073086615,
+          -12.736587646402198,
+          3.0076246576267978
+        ],
+        "chosen_target": [
+          -6368.242276205885,
+          -17.16456058058852,
+          1.5497712296051043
+        ],
+        "movementVector": [
+          5.9179311027764925,
+          -4.427972934186323,
+          -1.4578534280216935
+        ],
+        "ack_executed": true,
+        "ack_permitted": true,
+        "ack_tier": 2,
+        "score": 10.173050237316083,
+        "reality_tear": 0.3551630311982152,
+        "timestamp": 1783637642.774094
+      },
+      {
+        "step_index": 4,
+        "origin3d": [
+          -6368.242276205885,
+          -17.16456058058852,
+          1.5497712296051043
+        ],
+        "chosen_target": [
+          -6373.1013932882415,
+          -21.604888681178625,
+          -2.102648630560715
+        ],
+        "movementVector": [
+          -4.8591170823565335,
+          -4.440328100590104,
+          -3.6524198601658195
+        ],
+        "ack_executed": true,
+        "ack_permitted": true,
+        "ack_tier": 2,
+        "score": 9.725489604886329,
+        "reality_tear": 0.2973867831438524,
+        "timestamp": 1783637644.8247201
+      },
+      {
+        "step_index": 5,
+        "origin3d": [
+          -6373.1013932882415,
+          -21.604888681178625,
+          -2.102648630560715
+        ],
+        "chosen_target": [
+          -6379.934218707235,
+          -25.03756857520326,
+          0.18873660124590108
+        ],
+        "movementVector": [
+          -6.832825418993707,
+          -3.432679894024634,
+          2.291385231806616
+        ],
+        "ack_executed": true,
+        "ack_permitted": true,
+        "ack_tier": 2,
+        "score": 10.40824684456482,
+        "reality_tear": 0.32720139451505326,
+        "timestamp": 1783637646.294336
+      }
+    ],
+    "finished_at": 1783637646.294336
+  },
+  "safe_execution": true
+}

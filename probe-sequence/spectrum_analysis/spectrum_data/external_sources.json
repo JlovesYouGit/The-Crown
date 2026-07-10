@@ -1,0 +1,52 @@
+{
+  "started_at": 1783471452.980867,
+  "finished_at": 1783471453.2882252,
+  "origin": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "point_cloud_count": 2,
+  "spatial_sources_found": 2,
+  "enumerated_sources": [
+    {
+      "source_id": "spatial_0",
+      "ssid": "Altice MLPP",
+      "bssid": "c8:70:23:f7:29:70",
+      "frequency_mhz": 2412,
+      "band": "2.4GHz",
+      "channel": 26,
+      "signal_percent": 63,
+      "spatial_origin": {
+        "x": 10.0,
+        "y": 0.0,
+        "z": 0.0,
+        "distance": 10.0,
+        "bearing_deg": 0.0,
+        "elevation_deg": 0.0
+      },
+      "tune_ack": null,
+      "timestamp": 1783471452.980867
+    },
+    {
+      "source_id": "spatial_1",
+      "ssid": "Altice MLPP",
+      "bssid": "c8:70:23:f7:29:70",
+      "frequency_mhz": 2412,
+      "band": "2.4GHz",
+      "channel": 26,
+      "signal_percent": 63,
+      "spatial_origin": {
+        "x": 0.0,
+        "y": 10.0,
+        "z": 0.0,
+        "distance": 10.0,
+        "bearing_deg": 90.0,
+        "elevation_deg": 0.0
+      },
+      "tune_ack": null,
+      "timestamp": 1783471452.980867
+    }
+  ],
+  "safe_execution": false
+}

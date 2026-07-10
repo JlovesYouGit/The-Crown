@@ -164,6 +164,8 @@ def run_optimal_zone_pathing(
     *,
     voice_phrases: List[str],
     start_origin3d: Vec3,
+    attention: float = 0.0,
+    attention_multiplier: float = 1.25,
     steps: int = 3,
     candidates_per_step: int = 12,
     radius: float = 8.0,
@@ -223,6 +225,9 @@ def run_optimal_zone_pathing(
                 timeout_s=timeout_s,
             )
 
+            # Route attention through for downstream climate planning.
+            # This does not change Magi-Zone behavior directly (bridge options
+            # currently do not include it), but it influences climate directives.
             ack_dict = {
                 "executed": ack.executed,
                 "permitted": ack.permitted,
@@ -231,6 +236,7 @@ def run_optimal_zone_pathing(
                 "zoneMap3D": ack.zoneMap3D,
                 "upscale": ack.upscale,
                 "waveState": ack.waveState,
+                "attention": min(1.0, float(attention) * float(attention_multiplier)),
             }
 
             s = score_candidate(ack=ack_dict, candidate=target, origin=current_origin)

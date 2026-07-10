@@ -1,0 +1,5 @@
+Snapshot Count: 186
+Qubit-001: Position(100,200,300) Energy: 5000K
+Qubit-002: Position(400,500,600) Energy: 7500K
+Qubit-003: Position(700,800,900) Energy: 10000K
+Last Updated: 12/8/2025 4:26:11 PM

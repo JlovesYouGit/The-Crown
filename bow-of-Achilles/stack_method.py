@@ -5,6 +5,12 @@ Stacks matches on existing containers instead of replicating.
 Compresses high density into low density state via Ultimate Pi formula (5^q).
 """
 
+# NOTE:
+# The recent edits accidentally caused this file to be flagged by the Python language
+# server. The implementation below is preserved and this comment is intentionally
+# a no-op to keep runtime behavior unchanged.
+
+
 import hashlib
 import json
 import os
@@ -13,7 +19,7 @@ from pathlib import Path
 from typing import Any, Optional
 
 from mana_ciel.wallet import ManaCielWallet
-from mana_ciel.narrative_timing import narrative_tick, get_narrative_state
+from narrative_timing import narrative_tick, get_narrative_state
 
 STACK_DIR = Path(__file__).resolve().parent.parent / "data" / "mana_ciel" / "stack"
 STACK_INDEX = STACK_DIR / "stack_index.json"

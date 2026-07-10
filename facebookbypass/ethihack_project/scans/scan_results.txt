@@ -1,0 +1,6 @@
+Scan Results for m.facebook.com
+IP Address: 57.144.22.1
+Scan Time: 2025-11-22 12:52:19.451864
+Open Ports:
+  Port 80: Open (http)
+  Port 443: Open (https)

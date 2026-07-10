@@ -1,0 +1,22 @@
+{
+  "containers": {
+    "stack_container": {
+      "container_id": "stack_container",
+      "stacked_density": 0.0,
+      "match_count": 213,
+      "first_match_key": "dd3dabf79387762b",
+      "last_match_key": "36f2d2106d4cefc1",
+      "created_at": "2026-07-07T01:03:05.410137Z",
+      "last_updated": "2026-07-09T22:53:47.226202Z",
+      "compressed": {
+        "q": 15,
+        "power": 30517578125,
+        "input_density": 0.0,
+        "compressed_density": 0.0,
+        "compression_ratio": 30517578125,
+        "signal_hash": "15fcba8764a3fbe5"
+      }
+    }
+  },
+  "next_id": 1
+}
